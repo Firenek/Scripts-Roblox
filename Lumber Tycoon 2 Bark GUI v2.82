@@ -1,0 +1,2954 @@
+-- Farewell Infortality.
+-- Version: 2.82
+-- Instances:
+local LT2Update = Instance.new("ScreenGui")
+local OpenFrame = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+local BySten = Instance.new("TextLabel")
+local MainFrame = Instance.new("Frame")
+local Local = Instance.new("TextButton")
+local Plot = Instance.new("TextButton")
+local Teleports = Instance.new("TextButton")
+local Steal = Instance.new("TextButton")
+local Wood = Instance.new("TextButton")
+local Misc = Instance.new("TextButton")
+local Nothing = Instance.new("TextLabel")
+local Xmain = Instance.new("TextButton")
+local LocalFrame = Instance.new("Frame")
+local Fly = Instance.new("TextButton")
+local NoClip = Instance.new("TextButton")
+local WaterWalk = Instance.new("TextButton")
+local Speed = Instance.new("TextButton")
+local XLocal = Instance.new("TextButton")
+local Nothing_2 = Instance.new("TextLabel")
+local GodAxe = Instance.new("TextButton")
+local PlotFrame = Instance.new("Frame")
+local XPlot = Instance.new("TextButton")
+local MaxLand = Instance.new("TextButton")
+local TpPlot = Instance.new("TextButton")
+local Clone = Instance.new("TextButton")
+local Nothing_3 = Instance.new("TextLabel")
+local StealFrame = Instance.new("Frame")
+local Saxe = Instance.new("TextButton")
+local SBox = Instance.new("TextButton")
+local SGifts = Instance.new("TextButton")
+local SWood = Instance.new("TextButton")
+local Nothing_4 = Instance.new("Frame")
+local TSteal = Instance.new("TextBox")
+local XSteal = Instance.new("TextButton")
+local Nothing_5 = Instance.new("TextLabel")
+local WoodFrame = Instance.new("Frame")
+local XWood = Instance.new("TextButton")
+local SellWood = Instance.new("TextButton")
+local SellPlanks = Instance.new("TextButton")
+local TpPlanks = Instance.new("TextButton")
+local TpWood = Instance.new("TextButton")
+local BluePrints = Instance.new("TextButton")
+local Nothing_6 = Instance.new("TextLabel")
+local PaintTool = Instance.new("TextButton")
+local MiscFrame = Instance.new("Frame")
+local XMisc = Instance.new("TextButton")
+local RemoveFog = Instance.new("TextButton")
+local HardDrag = Instance.new("TextButton")
+local LeakedItems = Instance.new("TextButton")
+local Nothing_7 = Instance.new("TextLabel")
+local Dupe = Instance.new("TextButton")
+local CloneFrame = Instance.new("Frame")
+local XClone = Instance.new("TextButton")
+local Clone_2 = Instance.new("TextButton")
+local Nothing_8 = Instance.new("Frame")
+local TClone = Instance.new("TextBox")
+local Nothing_9 = Instance.new("TextLabel")
+local Wipe = Instance.new("TextButton")
+local Nothing_10 = Instance.new("TextLabel")
+local TeleporsFrame = Instance.new("Frame")
+local XTp = Instance.new("TextButton")
+local Nothing_11 = Instance.new("Frame")
+local TPlr = Instance.new("TextBox")
+local Nothing_12 = Instance.new("TextLabel")
+local Waypoints = Instance.new("TextButton")
+local CtrlClick = Instance.new("TextButton")
+local TpToPlyr = Instance.new("TextButton")
+local WaypointFrame = Instance.new("Frame")
+local Nothing_13 = Instance.new("Frame")
+local BobsShack = Instance.new("TextButton")
+local BoxedCars = Instance.new("TextButton")
+local Bridge = Instance.new("TextButton")
+local Cave = Instance.new("TextButton")
+local Dock = Instance.new("TextButton")
+local EndTimes = Instance.new("TextButton")
+local FancyFurnishings = Instance.new("TextButton")
+local FineArtsShop = Instance.new("TextButton")
+local LandStore = Instance.new("TextButton")
+local LinksLogic = Instance.new("TextButton")
+local PalmIsland = Instance.new("TextButton")
+local ShrineOfSight = Instance.new("TextButton")
+local SkiLodge = Instance.new("TextButton")
+local SpawnPoint = Instance.new("TextButton")
+local StrangeMan = Instance.new("TextButton")
+local Swamp = Instance.new("TextButton")
+local TheDen = Instance.new("TextButton")
+local Volcano = Instance.new("TextButton")
+local VolcanoWin = Instance.new("TextButton")
+local WoodRUs = Instance.new("TextButton")
+local XSteal_2 = Instance.new("TextButton")
+local Nothing_14 = Instance.new("TextLabel")
+--Properties:
+LT2Update.Name = "LT2Update"
+LT2Update.Parent = game.CoreGui
+LT2Update.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = LT2Update
+OpenFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+OpenFrame.Position = UDim2.new(0.712543011, 0, -0.00122846384, 0)
+OpenFrame.Size = UDim2.new(0, 120, 0, 66)
+OpenFrame.Style = Enum.FrameStyle.RobloxRound
+
+Open.Name = "Open"
+Open.Parent = OpenFrame
+Open.BackgroundColor3 = Color3.new(1, 1, 1)
+Open.Position = UDim2.new(-0.0782629997, 0, -0.121563233, 0)
+Open.Size = UDim2.new(0, 120, 0, 38)
+Open.Style = Enum.ButtonStyle.RobloxRoundButton
+Open.Font = Enum.Font.GothamBlack
+Open.Text = "Open :)"
+Open.TextColor3 = Color3.new(0, 0, 0)
+Open.TextSize = 30
+Open.TextWrapped = true
+Open.MouseButton1Down:connect(function()
+	MainFrame.Visible = true
+OpenFrame.Visible = false
+end)
+
+BySten.Name = "BySten"
+BySten.Parent = OpenFrame
+BySten.BackgroundColor3 = Color3.new(1, 1, 1)
+BySten.BackgroundTransparency = 1
+BySten.Position = UDim2.new(-0.0384889059, 0, 0.48475492, 0)
+BySten.Size = UDim2.new(0, 120, 0, 38)
+BySten.Font = Enum.Font.GothamBlack
+BySten.Text = "Gui By: Sten For: Yin Yang" 
+BySten.TextColor3 = Color3.new(0.513726, 0.513726, 0.513726)
+BySten.TextSize = 14
+BySten.TextWrapped = true
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = LT2Update
+MainFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+MainFrame.Position = UDim2.new(0.93865031, 0, 0.351351351, 0)
+MainFrame.Size = UDim2.new(0, 100, 0, 220)
+MainFrame.Visible = false
+MainFrame.Style = Enum.FrameStyle.RobloxRound
+
+Local.Name = "Local"
+Local.Parent = MainFrame
+Local.BackgroundColor3 = Color3.new(1, 1, 1)
+Local.Position = UDim2.new(0, 0, 0.130344182, 0)
+Local.Size = UDim2.new(0, 85, 0, 24)
+Local.Style = Enum.ButtonStyle.RobloxRoundButton
+Local.Font = Enum.Font.SourceSansSemibold
+Local.Text = "Local"
+Local.TextColor3 = Color3.new(0, 0, 0)
+Local.TextSize = 18
+Local.MouseButton1Down:connect(function()
+	LocalFrame.Visible = true
+end)
+
+Plot.Name = "Plot"
+Plot.Parent = MainFrame
+Plot.BackgroundColor3 = Color3.new(1, 1, 1)
+Plot.Position = UDim2.new(0, 0, 0.274097383, 0)
+Plot.Size = UDim2.new(0, 85, 0, 24)
+Plot.Style = Enum.ButtonStyle.RobloxRoundButton
+Plot.Font = Enum.Font.SourceSansSemibold
+Plot.Text = "Plot"
+Plot.TextColor3 = Color3.new(0, 0, 0)
+Plot.TextSize = 18
+Plot.MouseButton1Down:connect(function()
+	PlotFrame.Visible = true
+end)
+
+Teleports.Name = "Teleports"
+Teleports.Parent = MainFrame
+Teleports.BackgroundColor3 = Color3.new(1, 1, 1)
+Teleports.Position = UDim2.new(0, 0, 0.565197766, 0)
+Teleports.Size = UDim2.new(0, 85, 0, 24)
+Teleports.Style = Enum.ButtonStyle.RobloxRoundButton
+Teleports.Font = Enum.Font.SourceSansSemibold
+Teleports.Text = "Teleports"
+Teleports.TextColor3 = Color3.new(0, 0, 0)
+Teleports.TextSize = 18
+Teleports.MouseButton1Down:connect(function()
+	TeleporsFrame.Visible = true
+end)
+
+Steal.Name = "Steal"
+Steal.Parent = MainFrame
+Steal.BackgroundColor3 = Color3.new(1, 1, 1)
+Steal.Position = UDim2.new(0, 0, 0.421444565, 0)
+Steal.Size = UDim2.new(0, 85, 0, 24)
+Steal.Style = Enum.ButtonStyle.RobloxRoundButton
+Steal.Font = Enum.Font.SourceSansSemibold
+Steal.Text = "Steal"
+Steal.TextColor3 = Color3.new(0, 0, 0)
+Steal.TextSize = 18
+Steal.MouseButton1Down:connect(function()
+	StealFrame.Visible = true
+end)
+
+Wood.Name = "Wood"
+Wood.Parent = MainFrame
+Wood.BackgroundColor3 = Color3.new(1, 1, 1)
+Wood.Position = UDim2.new(0, 0, 0.709536493, 0)
+Wood.Size = UDim2.new(0, 85, 0, 24)
+Wood.Style = Enum.ButtonStyle.RobloxRoundButton
+Wood.Font = Enum.Font.SourceSansSemibold
+Wood.Text = "Wood"
+Wood.TextColor3 = Color3.new(0, 0, 0)
+Wood.TextSize = 18
+Wood.MouseButton1Down:connect(function()
+	WoodFrame.Visible = true
+end)
+
+Misc.Name = "Misc"
+Misc.Parent = MainFrame
+Misc.BackgroundColor3 = Color3.new(1, 1, 1)
+Misc.Position = UDim2.new(0, 0, 0.853289962, 0)
+Misc.Size = UDim2.new(0, 85, 0, 24)
+Misc.Style = Enum.ButtonStyle.RobloxRoundButton
+Misc.Font = Enum.Font.SourceSansSemibold
+Misc.Text = "Misc"
+Misc.TextColor3 = Color3.new(0, 0, 0)
+Misc.TextSize = 18
+Misc.MouseButton1Down:connect(function()
+	MiscFrame.Visible = true
+end)
+
+Nothing.Name = "Nothing"
+Nothing.Parent = MainFrame
+Nothing.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing.BackgroundTransparency = 1
+Nothing.Position = UDim2.new(0.216079101, 0, -0.0800541267, 0)
+Nothing.Size = UDim2.new(0, 47, 0, 50)
+Nothing.Font = Enum.Font.SourceSansSemibold
+Nothing.Text = "Dirt?"
+Nothing.TextColor3 = Color3.new(0.513726, 0.513726, 0.513726)
+Nothing.TextSize = 25
+
+Xmain.Name = "Xmain"
+Xmain.Parent = MainFrame
+Xmain.BackgroundColor3 = Color3.new(1, 1, 1)
+Xmain.Position = UDim2.new(0.801506341, 0, -0.0394972377, 0)
+Xmain.Size = UDim2.new(0, 23, 0, 23)
+Xmain.Style = Enum.ButtonStyle.RobloxRoundButton
+Xmain.Font = Enum.Font.SourceSans
+Xmain.Text = "X"
+Xmain.TextColor3 = Color3.new(0, 0, 0)
+Xmain.TextSize = 14
+Xmain.MouseButton1Down:connect(function()
+	MainFrame.Visible = false
+	OpenFrame.Visible = true
+end)
+
+LocalFrame.Name = "LocalFrame"
+LocalFrame.Parent = LT2Update
+LocalFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+LocalFrame.Position = UDim2.new(0.93865037, 0, 0.163390666, 0)
+LocalFrame.Size = UDim2.new(0, 100, 0, 153)
+LocalFrame.Visible = false
+LocalFrame.Style = Enum.FrameStyle.RobloxRound
+
+Fly.Name = "Fly"
+Fly.Parent = LocalFrame
+Fly.BackgroundColor3 = Color3.new(1, 1, 1)
+Fly.Position = UDim2.new(0.0391833484, 0, 0.177997261, 0)
+Fly.Size = UDim2.new(0, 77, 0, 23)
+Fly.Style = Enum.ButtonStyle.RobloxRoundButton
+Fly.Font = Enum.Font.SourceSansSemibold
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.new(0, 0, 0)
+Fly.TextSize = 17
+Fly.MouseButton1Down:connect(function()
+	for i,v in pairs(script:GetChildren()) do
+	pcall(function() v.Value = "" end)
+			game:GetService("Debris"):AddItem(v,.1)
+		end
+   
+		function weld(p0,p1,c0,c1,par)
+			local w = Instance.new("Weld",p0 or par)
+			w.Part0 = p0
+			w.Part1 = p1
+			w.C0 = c0 or CFrame.new()
+			w.C1 = c1 or CFrame.new()
+			return w
+		end
+   
+		local motors = {}
+   
+		function motor(p0,p1,c0,c1,des,vel,par)
+			local w = Instance.new("Motor6D",p0 or par)
+			w.Part0 = p0
+			w.Part1 = p1
+			w.C0 = c0 or CFrame.new()
+			w.C1 = c1 or CFrame.new()
+			w.MaxVelocity = tonumber(vel) or .05
+			w.DesiredAngle = tonumber(des) or 0
+			return w
+		end
+   
+		function lerp(a,b,c)
+			return a+(b-a)*c
+		end
+   
+		function clerp(c1,c2,al)
+			local com1 = {c1.X,c1.Y,c1.Z,c1:toEulerAnglesXYZ()}
+			local com2 = {c2.X,c2.Y,c2.Z,c2:toEulerAnglesXYZ()}
+			for i,v in pairs(com1) do
+				com1[i] = lerp(v,com2[i],al)
+			end
+			return CFrame.new(com1[1],com1[2],com1[3]) * CFrame.Angles(select(4,unpack(com1)))
+		end
+   
+		function ccomplerp(c1,c2,al)
+			local com1 = {c1:components()}
+			local com2 = {c2:components()}
+			for i,v in pairs(com1) do
+				com1[i] = lerp(v,com2[i],al)
+			end
+			return CFrame.new(unpack(com1))
+		end
+   
+		function tickwave(time,length,offset)
+			return (math.abs((tick()+(offset or 0))%time-time/2)*2-time/2)/time/2*length
+		end
+
+		function invcol(c)
+			c = c.Color
+			return BrickColor.new(Color3.new(1-c.b,1-c.g,1-c.r))
+		end
+		local oc = oc or function(...) return ... end
+		local plr = game.Players.LocalPlayer
+		local char = plr.Character
+		local tor = char.Torso
+		local hum = char.Humanoid
+		hum.PlatformStand = false
+		pcall(function()
+			char.Wings:Destroy()
+		end)
+		pcall(function()
+			char.Angel:Destroy() -- hat
+		end)
+		local mod = Instance.new("Model",char)
+		mod.Name = "Wings"
+		local special = {
+			[game.Players.LocalPlayer.Name] = {"Black","Bright red",.5,0,false,Color3.new(1,0,0),Color3.new(0,0,0)},
+		}
+		local topcolor = BrickColor.new("Really black")
+		local feacolor = BrickColor.new("Black")
+		local ptrans = 0
+		local pref = 0
+		local fire = true
+		local fmcol = Color3.new()
+		local fscol = Color3.new()
+		local spec = special[plr.Name:lower()]
+		if spec then
+			topcolor,feacolor,ptrans,pref,fire,fmcol,fscol = spec[1] and BrickColor.new(spec[1]) or topcolor,spec[2] and BrickColor.new(spec[2]) or feacolor,spec[3],spec[4],spec[5],spec[6],spec[7]
+		end
+		local part = Instance.new("Part")
+		part.FormFactor = "Custom"
+		part.Size = Vector3.new(.2,.2,.2)
+		part.TopSurface,part.BottomSurface = 0,0
+		part.CanCollide = false
+		part.BrickColor = BrickColor.new("Black")
+		part.Transparency = ptrans
+		part.Reflectance = pref
+		local ef = Instance.new("Fire",fire and part or nil)
+		ef.Size = .15
+		ef.Color = BrickColor.new("Black").Color
+		ef.SecondaryColor = BrickColor.new("Bright red").Color
+		part:BreakJoints()
+		function newpart()
+			local clone = part:Clone()
+			clone.Parent = mod
+			clone:BreakJoints()
+			return clone
+		end
+		local feath = newpart()
+		feath.BrickColor = feacolor
+		feath.Transparency = 0
+		Instance.new("SpecialMesh",feath).MeshType = "Sphere"
+		function newfeather()
+			local clone = feath:Clone()
+			clone.Parent = mod
+			clone:BreakJoints()
+			return clone
+		end
+		flying = false
+		moving = false
+		for i,v in pairs(tor:GetChildren()) do
+			if v.ClassName:lower():match("body") then
+				v:Destroy()
+			end
+		end
+		local ctor = tor:Clone()
+		ctor:ClearAllChildren()
+		ctor.Name = "cTorso"
+		ctor.Transparency = 1
+		ctor.CanCollide = false
+		ctor.FormFactor = "Custom"
+		ctor.Size = Vector3.new(.2,.2,.2)
+		ctor.Parent = mod
+		weld(tor,ctor)
+		local bg = Instance.new("BodyGyro",ctor)
+		bg.maxTorque = Vector3.new()
+		bg.P = 15000
+		bg.D = 1000
+		local bv = Instance.new("BodyVelocity",ctor)
+		bv.maxForce = Vector3.new()
+		bv.P = 15000
+		vel = Vector3.new()
+		cf = CFrame.new()
+		flspd = 0
+		keysdown = {}
+		keypressed = {}
+		ktime = {}
+		descendtimer = 0
+		jumptime = tick()
+		hum.Jumping:connect(function()
+			jumptime = tick()
+		end)
+		cam = workspace.CurrentCamera
+		kd = plr:GetMouse().KeyDown:connect(oc(function(key)
+			keysdown[key] = true
+			keypressed[key] = true
+			if key == "q" then
+				descendtimer = tick()
+			elseif key == " " and not hum.Jump then
+				jumptime = tick()
+			elseif (key == "a" or key == "d") and ktime[key] and tick()-ktime[key] < .3 and math.abs(reqrotx) < .3 then
+				reqrotx = key == "a" and math.pi*2 or -math.pi*2
+			end
+			ktime[key] = tick()
+		end))
+   
+		ku = plr:GetMouse().KeyUp:connect(function(key)
+			keysdown[key] = false
+			if key == " " then
+				descendtimer = tick()
+			end
+		end)
+		function mid(a,b,c)
+			return math.max(a,math.min(b,c or -a))
+		end
+		function bn(a)
+			return a and 1 or 0
+		end
+		function gm(tar)
+			local m = 0
+			for i,v in pairs(tar:GetChildren()) do
+				if v:IsA("BasePart") then
+					m = m + v:GetMass()
+				end
+				m = m + gm(v)
+			end
+			return m
+		end
+		reqrotx = 0
+		local grav = 196.2
+		local con
+		con = game:GetService("RunService").Stepped:connect(oc(function()
+			local obvel = tor.CFrame:vectorToObjectSpace(tor.Velocity)
+			local sspd, uspd,fspd = obvel.X,obvel.Y,obvel.Z
+			if flying then
+				local lfldir = fldir
+				fldir = cam.CoordinateFrame:vectorToWorldSpace(Vector3.new(bn(keysdown.d)-bn(keysdown.a),0,bn(keysdown.s)-bn(keysdown.w))).unit
+				local lmoving = moving
+				moving = fldir.magnitude > .1
+				if lmoving and not moving then
+					idledir = lfldir*Vector3.new(1,0,1)
+					descendtimer = tick()
+				end
+				local dbomb = fldir.Y < -.6 or (moving and keysdown["1"])
+				if moving and keysdown["0"] and lmoving then
+					fldir = (Vector3.new(lfldir.X,math.min(fldir.Y,lfldir.Y+.01)-.1,lfldir.Z)+(fldir*Vector3.new(1,0,1))*.05).unit
+				end
+				local down = tor.CFrame:vectorToWorldSpace(Vector3.new(0,-1,0))
+				local descending = (not moving and keysdown["q"] and not keysdown[" "])
+				cf = ccomplerp(cf,CFrame.new(tor.Position,tor.Position+(not moving and idledir or fldir)),keysdown["0"] and .02 or .07)
+				local gdown = not dbomb and cf.lookVector.Y < -.2 and tor.Velocity.unit.Y < .05
+				hum.PlatformStand = true
+				bg.maxTorque = Vector3.new(1,1,1)*9e5
+				local rotvel = CFrame.new(Vector3.new(),tor.Velocity):toObjectSpace(CFrame.new(Vector3.new(),fldir)).lookVector
+				bg.cframe = cf * CFrame.Angles(not moving and -.1 or -math.pi/2+.2,moving and mid(-2.5,rotvel.X/1.5) + reqrotx or 0,0)
+				reqrotx = reqrotx - reqrotx/10
+				bv.maxForce = Vector3.new(1,1,1)*9e4*.5
+				local anioff =(bn(keysdown[" "])-bn(keysdown["q"]))/2
+				local ani = tickwave(1.5-anioff,1)
+				bv.velocity = bv.velocity:Lerp(Vector3.new(0,bn(not moving)*-ani*15+(descending and math.min(20,tick()-descendtimer)*-8 or bn(keysdown[" "])-bn(keysdown["q"]))*15,0)+vel,.6)
+				vel = moving and cf.lookVector*flspd or Vector3.new()
+				flspd = math.min(120,lerp(flspd,moving and (fldir.Y<0 and flspd+(-fldir.Y)*grav/60 or math.max(50,flspd-fldir.Y*grav/300)) or 60,.4))
+				local hit,ray = workspace:FindPartOnRayWithIgnoreList(Ray.new(tor.Position,Vector3.new(0,-3.5+math.min(0,bv.velocity.y)/30,0)),{char})
+				if hit and down.Y < -.85 and tick()-flystart > 1 then
+					flying = false
+					hum.PlatformStand = false
+					tor.Velocity = Vector3.new()
+				end
+			else
+				bg.maxTorque = Vector3.new()
+				bv.maxForce = Vector3.new()
+				local x,y,z = fspd/160,uspd/700,sspd/900
+				if keypressed[" "] and not flying and (tick()-jumptime > .05 and (tick()-jumptime < 3 or hum.Jump)) then
+					vel = Vector3.new(0,50,0)
+					bv.velocity = vel
+					idledir = cam.CoordinateFrame.lookVector*Vector3.new(1,0,1)
+					cf = tor.CFrame * CFrame.Angles(-.01,0,0)
+					tor.CFrame = cf
+					bg.cframe = cf
+					flystart = tick()
+					flying = true
+			end
+		end
+		keypressed = {}
+	end))
+end)
+
+NoClip.Name = "NoClip"
+NoClip.Parent = LocalFrame
+NoClip.BackgroundColor3 = Color3.new(1, 1, 1)
+NoClip.Position = UDim2.new(0.0391833484, 0, 0.33559224, 0)
+NoClip.Size = UDim2.new(0, 77, 0, 23)
+NoClip.Style = Enum.ButtonStyle.RobloxRoundButton
+NoClip.Font = Enum.Font.SourceSansSemibold
+NoClip.Text = "NoClip [F]"
+NoClip.TextColor3 = Color3.new(0, 0, 0)
+NoClip.TextSize = 17
+NoClip.MouseButton1Down:connect(function()
+		local noclipplayer = game:GetService("Players").LocalPlayer
+local noclipmouse = noclipplayer:GetMouse()
+
+local donoclip = false
+local noclip = false
+
+function b_noclip(key)
+if (key == "f") then
+if noclip == false then
+donoclip = true
+
+noclip = true
+elseif noclip == true then
+donoclip = false
+
+noclip = false
+end
+end
+end
+
+noclipmouse.KeyDown:connect(b_noclip)
+
+game:GetService("Players").LocalPlayer.Character.Head.Touched:connect(function(obj)
+if obj ~= workspace.Terrain then
+if donoclip == true then
+obj.CanCollide = false
+else
+obj.CanCollide = true
+end
+end
+end)
+end)
+
+WaterWalk.Name = "WaterWalk"
+WaterWalk.Parent = LocalFrame
+WaterWalk.BackgroundColor3 = Color3.new(1, 1, 1)
+WaterWalk.Position = UDim2.new(0.0391833484, 0, 0.654423535, 0)
+WaterWalk.Size = UDim2.new(0, 77, 0, 23)
+WaterWalk.Style = Enum.ButtonStyle.RobloxRoundButton
+WaterWalk.Font = Enum.Font.SourceSansSemibold
+WaterWalk.Text = "WaterWalk"
+WaterWalk.TextColor3 = Color3.new(0, 0, 0)
+WaterWalk.TextSize = 17
+WaterWalk.MouseButton1Down:connect(function()
+        game:service'ReplicatedStorage'.Interaction.Ban:Destroy()
+        Instance.new('RemoteEvent', game:service'ReplicatedStorage'.Interaction).Name = "Ban"
+        for i,v in pairs(game.Workspace.Water:GetChildren()) do
+            if v:IsA("Part") then
+                v.CanCollide = true
+            end
+        end
+end)
+
+Speed.Name = "Speed"
+Speed.Parent = LocalFrame
+Speed.BackgroundColor3 = Color3.new(1, 1, 1)
+Speed.Position = UDim2.new(0.0391833484, 0, 0.496828556, 0)
+Speed.Size = UDim2.new(0, 77, 0, 23)
+Speed.Style = Enum.ButtonStyle.RobloxRoundButton
+Speed.Font = Enum.Font.SourceSansSemibold
+Speed.Text = "Speed [V]"
+Speed.TextColor3 = Color3.new(0, 0, 0)
+Speed.TextSize = 17
+Speed.MouseButton1Down:connect(function()
+	 local walkspeedplayer = game:GetService("Players").LocalPlayer
+    local walkspeedmouse = walkspeedplayer:GetMouse()
+    
+    local walkspeedenabled = false
+    
+    function x_walkspeed(key)
+        if (key == "v") then
+            if walkspeedenabled == false then
+                _G.WS = 150;
+                local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+                Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+                Humanoid.WalkSpeed = _G.WS;
+                end)
+                Humanoid.WalkSpeed = _G.WS;
+                
+                walkspeedenabled = true
+            elseif walkspeedenabled == true then
+                _G.WS = 15;
+                local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+                Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+                Humanoid.WalkSpeed = _G.WS;
+                end)
+                Humanoid.WalkSpeed = _G.WS;
+                
+                walkspeedenabled = false
+            end
+        end
+    end
+    
+    walkspeedmouse.KeyDown:connect(x_walkspeed)
+end)
+
+XLocal.Name = "XLocal"
+XLocal.Parent = LocalFrame
+XLocal.BackgroundColor3 = Color3.new(1, 1, 1)
+XLocal.Position = UDim2.new(0.79326427, 0, -0.0665849894, 0)
+XLocal.Size = UDim2.new(0, 23, 0, 23)
+XLocal.Style = Enum.ButtonStyle.RobloxRoundButton
+XLocal.Font = Enum.Font.SourceSans
+XLocal.Text = "X"
+XLocal.TextColor3 = Color3.new(0, 0, 0)
+XLocal.TextSize = 14
+XLocal.MouseButton1Down:connect(function()
+	LocalFrame.Visible = false
+end)
+
+Nothing_2.Name = "Nothing"
+Nothing_2.Parent = LocalFrame
+Nothing_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_2.BackgroundTransparency = 1
+Nothing_2.Position = UDim2.new(0.136079103, 0, -0.123849742, 0)
+Nothing_2.Size = UDim2.new(0, 47, 0, 50)
+Nothing_2.Font = Enum.Font.SourceSansSemibold
+Nothing_2.Text = "Local"
+Nothing_2.TextColor3 = Color3.new(0.513726, 0.513726, 0.513726)
+Nothing_2.TextSize = 25
+
+GodAxe.Name = "GodAxe"
+GodAxe.Parent = LocalFrame
+GodAxe.BackgroundColor3 = Color3.new(1, 1, 1)
+GodAxe.Position = UDim2.new(0.0391833484, 0, 0.811286271, 0)
+GodAxe.Size = UDim2.new(0, 77, 0, 23)
+GodAxe.Style = Enum.ButtonStyle.RobloxRoundButton
+GodAxe.Font = Enum.Font.SourceSansSemibold
+GodAxe.Text = "Gold Axe"
+GodAxe.TextColor3 = Color3.new(0, 0, 0)
+GodAxe.TextSize = 17
+GodAxe.MouseButton1Down:connect(function()
+	Detect = coroutine.wrap(function()
+	Player = game.Players.LocalPlayer
+	mouse = Player:GetMouse()
+	mouse.Button1Down:connect(function()
+		MouseDown = true
+	end)
+	mouse.Button1Up:connect(function()
+		MouseDown = false
+	end)
+end)
+Detect()
+Player = game.Players.LocalPlayer
+
+mouse = Player:GetMouse()
+for i = 1,50 do
+wait(.5)
+game:GetService('RunService').RenderStepped:connect(function()
+	if Player.Character:FindFirstChild("Tool") then
+		if MouseDown == true then
+			if mouse.Target.Name == "WoodSection" then
+				targetWood = mouse.Target
+				Tool=Player.Character.Tool
+				---FaceVector
+				Height = targetWood.CFrame:pointToObjectSpace(mouse.Hit.p).Y + targetWood.Size.Y/2
+				local ray = Ray.new(Player.Character.Head.Position, ((targetWood.CFrame * CFrame.new(0, Height - targetWood.Size.Y/2, 0)).p - Player.Character.Head.Position).unit * 200)
+				part,_,p = workspace:FindPartOnRay(ray, Player.Character)
+				function fixVector(V)
+					return Vector3.new(math.floor(V.X + 0.5), math.floor(V.Y + 0.5), math.floor(V.Z + 0.5))
+				end
+				local faceVector = fixVector(targetWood.CFrame:vectorToObjectSpace(p))
+				if faceVector.Y ~= 0 then
+					return
+				end
+				local lookAtCFrame = CFrame.new(Player.Character.Head.Position, mouse.Hit.p)
+				local relativeCFrame = lookAtCFrame:toObjectSpace(targetWood.CFrame * CFrame.Angles(math.pi/2, 0, 0))
+				local relativeLookVector = relativeCFrame.lookVector
+				local m = relativeLookVector.Y >= 0 and 1 or -1
+				if faceVector.X == 1 then
+					faceVector = Vector3.new(0, 0, -1) * m
+				elseif faceVector.X == -1 then
+					faceVector = Vector3.new(0, 0, 1) * m
+				elseif faceVector.Z == 1 then
+					faceVector = Vector3.new(1, 0, 0) * m
+				elseif faceVector.Z == -1 then
+					faceVector = Vector3.new(-1, 0, 0) * m
+				end
+				local cutEvent = targetWood.Parent.CutEvent
+				game.ReplicatedStorage.Interaction.RemoteProxy:FireServer(cutEvent, {sectionId = targetWood.ID.Value, faceVector = faceVector, height = Height, hitPoints = 0.2, cooldown = 0, cuttingClass = "Axe", tool = Player.Character.Tool})
+			end
+		end
+	end
+end)
+end
+end)
+
+PlotFrame.Name = "PlotFrame"
+PlotFrame.Parent = LT2Update
+PlotFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+PlotFrame.Position = UDim2.new(0.93865037, 0, 0.621621609, 0)
+PlotFrame.Size = UDim2.new(0, 100, 0, 100)
+PlotFrame.Visible = false
+PlotFrame.Style = Enum.FrameStyle.RobloxRound
+
+XPlot.Name = "XPlot"
+XPlot.Parent = PlotFrame
+XPlot.BackgroundColor3 = Color3.new(1, 1, 1)
+XPlot.Position = UDim2.new(0.803468347, 0, -0.0865849853, 0)
+XPlot.Size = UDim2.new(0, 23, 0, 23)
+XPlot.Style = Enum.ButtonStyle.RobloxRoundButton
+XPlot.Font = Enum.Font.SourceSans
+XPlot.Text = "X"
+XPlot.TextColor3 = Color3.new(0, 0, 0)
+XPlot.TextSize = 14
+XPlot.MouseButton1Down:connect(function()
+	PlotFrame.Visible = false
+end)
+
+MaxLand.Name = "MaxLand"
+MaxLand.Parent = PlotFrame
+MaxLand.BackgroundColor3 = Color3.new(1, 1, 1)
+MaxLand.Position = UDim2.new(-0.0141198747, 0, 0.187305897, 0)
+MaxLand.Size = UDim2.new(0, 87, 0, 24)
+MaxLand.Style = Enum.ButtonStyle.RobloxRoundButton
+MaxLand.Font = Enum.Font.SourceSansSemibold
+MaxLand.Text = "Max Land"
+MaxLand.TextColor3 = Color3.new(0, 0, 0)
+MaxLand.TextSize = 18
+MaxLand.MouseButton1Down:connect(function()
+	for i, v in pairs(game:GetService("Workspace").Properties:GetChildren()) do
+		if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+			base = v
+			square = v.OriginSquare
+			end
+		end
+	function makebase(pos)
+		local Event = game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty
+		Event:FireServer(base, pos)
+		end
+	spos = square.Position
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z))
+	makebase(CFrame.new(spos.X, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z))
+	makebase(CFrame.new(spos.X, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X, spos.Y, spos.Z - 80))
+--Corners--
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z - 80))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z - 80))
+--Corners--
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z - 80))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z - 80))
+end)
+
+TpPlot.Name = "TpPlot"
+TpPlot.Parent = PlotFrame
+TpPlot.BackgroundColor3 = Color3.new(1, 1, 1)
+TpPlot.Position = UDim2.new(-0.0141198747, 0, 0.455798328, 0)
+TpPlot.Size = UDim2.new(0, 87, 0, 24)
+TpPlot.Style = Enum.ButtonStyle.RobloxRoundButton
+TpPlot.Font = Enum.Font.SourceSansSemibold
+TpPlot.Text = "Tp Plot"
+TpPlot.TextColor3 = Color3.new(0, 0, 0)
+TpPlot.TextSize = 18
+TpPlot.MouseButton1Down:connect(function()
+	for i,v in pairs(game.Workspace.Properties:GetChildren()) do
+		if v.Owner.Value == game.Players.LocalPlayer then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.OriginSquare.CFrame + Vector3.new(0,10,0)
+		end
+	end
+end)
+
+Clone.Name = "Clone"
+Clone.Parent = PlotFrame
+Clone.BackgroundColor3 = Color3.new(1, 1, 1)
+Clone.Position = UDim2.new(-0.0141198747, 0, 0.728007138, 0)
+Clone.Size = UDim2.new(0, 87, 0, 24)
+Clone.Style = Enum.ButtonStyle.RobloxRoundButton
+Clone.Font = Enum.Font.SourceSansSemibold
+Clone.Text = "Clone"
+Clone.TextColor3 = Color3.new(0, 0, 0)
+Clone.TextSize = 18
+Clone.MouseButton1Down:connect(function()
+	CloneFrame.Visible = true
+end)
+
+Nothing_3.Name = "Nothing"
+Nothing_3.Parent = PlotFrame
+Nothing_3.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_3.BackgroundTransparency = 1
+Nothing_3.Position = UDim2.new(-0.0540014654, 0, -0.0711480677, 0)
+Nothing_3.Size = UDim2.new(0, 80, 0, 25)
+Nothing_3.Font = Enum.Font.SourceSansSemibold
+Nothing_3.Text = "Plot"
+Nothing_3.TextColor3 = Color3.new(0.513726, 0.513726, 0.513726)
+Nothing_3.TextSize = 25
+
+StealFrame.Name = "StealFrame"
+StealFrame.Parent = LT2Update
+StealFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+StealFrame.Position = UDim2.new(0.87730062, 0, 0.181818217, 0)
+StealFrame.Size = UDim2.new(0, 100, 0, 160)
+StealFrame.Visible = false
+StealFrame.Style = Enum.FrameStyle.RobloxRound
+
+Saxe.Name = "Saxe"
+Saxe.Parent = StealFrame
+Saxe.BackgroundColor3 = Color3.new(1, 1, 1)
+Saxe.Position = UDim2.new(0.0443835407, 0, 0.388164222, 0)
+Saxe.Size = UDim2.new(0, 78, 0, 21)
+Saxe.Style = Enum.ButtonStyle.RobloxRoundButton
+Saxe.Font = Enum.Font.SourceSansSemibold
+Saxe.Text = "Axe"
+Saxe.TextColor3 = Color3.new(0, 0, 0)
+Saxe.TextSize = 17
+Saxe.MouseButton1Down:connect(function()
+	local plr = Saxe.Text
+local StealType = "Tool"
+
+local Times = 0
+for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+if v:FindFirstChild("Owner") and tostring(v.Owner.Value) == plr then
+if StealType ~= "TreeClass" then
+if v:FindFirstChild("Type") and tostring(v.Type.Value) == StealType then
+if v.PrimaryPart then
+v.PrimaryPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientRequestOwnership:FireServer(v.PrimaryPart)
+v.PrimaryPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v.PrimaryPart)
+v.PrimaryPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+Times = Times + 1
+if Times == 10 then
+Times = 0
+wait(0.1)
+end
+end
+end
+else
+if v:FindFirstChild("TreeClass") then
+if v.WoodSection then
+v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientRequestOwnership:FireServer(v.WoodSection)
+v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v.WoodSection)
+v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+Times = Times + 1
+if Times == 10 then
+Times = 0
+wait(0.1)
+end
+end
+end
+end
+end
+end
+end)
+
+SBox.Name = "SBox"
+SBox.Parent = StealFrame
+SBox.BackgroundColor3 = Color3.new(1, 1, 1)
+SBox.Position = UDim2.new(0.0443835407, 0, 0.532585144, 0)
+SBox.Size = UDim2.new(0, 78, 0, 21)
+SBox.Style = Enum.ButtonStyle.RobloxRoundButton
+SBox.Font = Enum.Font.SourceSansSemibold
+SBox.Text = "Box"
+SBox.TextColor3 = Color3.new(0, 0, 0)
+SBox.TextSize = 17
+SBox.MouseButton1Down:connect(function()
+	local plr = TSteal.Text
+local StealType = "Loose Item"
+
+local Times = 0
+for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+if v:FindFirstChild("Owner") and tostring(v.Owner.Value) == plr then
+if StealType ~= "TreeClass" then
+if v:FindFirstChild("Type") and tostring(v.Type.Value) == StealType then
+if v.PrimaryPart then
+v.PrimaryPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientRequestOwnership:FireServer(v.PrimaryPart)
+v.PrimaryPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v.PrimaryPart)
+v.PrimaryPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+Times = Times + 1
+if Times == 10 then
+Times = 0
+wait(0.1)
+end
+end
+end
+else
+if v:FindFirstChild("TreeClass") then
+if v.WoodSection then
+v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientRequestOwnership:FireServer(v.WoodSection)
+v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v.WoodSection)
+v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+Times = Times + 1
+if Times == 10 then
+Times = 0
+wait(0.1)
+end
+end
+end
+end
+end
+end
+end)
+
+SGifts.Name = "SGifts"
+SGifts.Parent = StealFrame
+SGifts.BackgroundColor3 = Color3.new(1, 1, 1)
+SGifts.Position = UDim2.new(0.0443835407, 0, 0.680342853, 0)
+SGifts.Size = UDim2.new(0, 78, 0, 21)
+SGifts.Style = Enum.ButtonStyle.RobloxRoundButton
+SGifts.Font = Enum.Font.SourceSansSemibold
+SGifts.Text = "Gifts"
+SGifts.TextColor3 = Color3.new(0, 0, 0)
+SGifts.TextSize = 17
+SGifts.MouseButton1Down:connect(function()
+	local plr = TSteal.Text
+local StealType = "Gift"
+
+local Times = 0
+for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+if v:FindFirstChild("Owner") and tostring(v.Owner.Value) == plr then
+if StealType ~= "TreeClass" then
+if v:FindFirstChild("Type") and tostring(v.Type.Value) == StealType then
+if v.PrimaryPart then
+v.PrimaryPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientRequestOwnership:FireServer(v.PrimaryPart)
+v.PrimaryPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v.PrimaryPart)
+v.PrimaryPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+Times = Times + 1
+if Times == 10 then
+Times = 0
+wait(0.1)
+end
+end
+end
+else
+if v:FindFirstChild("TreeClass") then
+if v.WoodSection then
+v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientRequestOwnership:FireServer(v.WoodSection)
+v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v.WoodSection)
+v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+Times = Times + 1
+if Times == 10 then
+Times = 0
+wait(0.1)
+end
+end
+end
+end
+end
+end
+end)
+
+SWood.Name = "SWood"
+SWood.Parent = StealFrame
+SWood.BackgroundColor3 = Color3.new(1, 1, 1)
+SWood.Position = UDim2.new(0.0443835407, 0, 0.824764252, 0)
+SWood.Size = UDim2.new(0, 78, 0, 21)
+SWood.Style = Enum.ButtonStyle.RobloxRoundButton
+SWood.Font = Enum.Font.SourceSansSemibold
+SWood.Text = "Wood"
+SWood.TextColor3 = Color3.new(0, 0, 0)
+SWood.TextSize = 17
+SWood.MouseButton1Down:connect(function()
+	local plr = TSteal.Text
+local StealType = "TreeClass"
+
+local Times = 0
+for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+if v:FindFirstChild("Owner") and tostring(v.Owner.Value) == plr then
+if StealType ~= "TreeClass" then
+if v:FindFirstChild("Type") and tostring(v.Type.Value) == StealType then
+if v.PrimaryPart then
+v.PrimaryPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientRequestOwnership:FireServer(v.PrimaryPart)
+v.PrimaryPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v.PrimaryPart)
+v.PrimaryPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+Times = Times + 1
+if Times == 10 then
+Times = 0
+wait(0.1)
+end
+end
+end
+else
+if v:FindFirstChild("TreeClass") then
+if v.WoodSection then
+v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientRequestOwnership:FireServer(v.WoodSection)
+v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v.WoodSection)
+v.WoodSection.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,10,0)
+Times = Times + 1
+if Times == 10 then
+Times = 0
+wait(0.1)
+end
+end
+end
+end
+end
+end
+end)
+
+Nothing_4.Name = "Nothing"
+Nothing_4.Parent = StealFrame
+Nothing_4.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_4.Position = UDim2.new(-0.0832482949, 0, 0.115020946, 0)
+Nothing_4.Size = UDim2.new(0, 100, 0, 30)
+Nothing_4.Style = Enum.FrameStyle.RobloxRound
+
+TSteal.Name = "TSteal"
+TSteal.Parent = Nothing_4
+TSteal.BackgroundColor3 = Color3.new(1, 1, 1)
+TSteal.BackgroundTransparency = 1
+TSteal.Position = UDim2.new(-0.0901159719, 0, -0.580424547, 0)
+TSteal.Size = UDim2.new(0, 98, 0, 29)
+TSteal.Font = Enum.Font.SourceSans
+TSteal.Text = ""
+TSteal.TextColor3 = Color3.new(1, 1, 1)
+TSteal.TextSize = 14
+
+XSteal.Name = "XSteal"
+XSteal.Parent = StealFrame
+XSteal.BackgroundColor3 = Color3.new(1, 1, 1)
+XSteal.Position = UDim2.new(0.813264251, 0, -0.0478349887, 0)
+XSteal.Size = UDim2.new(0, 23, 0, 23)
+XSteal.Style = Enum.ButtonStyle.RobloxRoundButton
+XSteal.Font = Enum.Font.SourceSans
+XSteal.Text = "X"
+XSteal.TextColor3 = Color3.new(0, 0, 0)
+XSteal.TextSize = 14
+XSteal.MouseButton1Down:connect(function()
+	StealFrame.Visible = false
+end)
+
+Nothing_5.Name = "Nothing"
+Nothing_5.Parent = StealFrame
+Nothing_5.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_5.BackgroundTransparency = 1
+Nothing_5.Position = UDim2.new(-0.120528564, 0, -0.0465000197, 0)
+Nothing_5.Size = UDim2.new(0, 79, 0, 28)
+Nothing_5.Font = Enum.Font.SourceSansSemibold
+Nothing_5.Text = "Steal"
+Nothing_5.TextColor3 = Color3.new(0.513726, 0.513726, 0.513726)
+Nothing_5.TextSize = 25
+
+WoodFrame.Name = "WoodFrame"
+WoodFrame.Parent = LT2Update
+WoodFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+WoodFrame.Position = UDim2.new(0.87730062, 0, 0.558968067, 0)
+WoodFrame.Size = UDim2.new(0, 100, 0, 193)
+WoodFrame.Visible = false
+WoodFrame.Style = Enum.FrameStyle.RobloxRound
+
+XWood.Name = "XWood"
+XWood.Parent = WoodFrame
+XWood.BackgroundColor3 = Color3.new(1, 1, 1)
+XWood.Position = UDim2.new(0.79326427, 0, -0.0472420156, 0)
+XWood.Size = UDim2.new(0, 23, 0, 23)
+XWood.Style = Enum.ButtonStyle.RobloxRoundButton
+XWood.Font = Enum.Font.SourceSans
+XWood.Text = "X"
+XWood.TextColor3 = Color3.new(0, 0, 0)
+XWood.TextSize = 14
+XWood.MouseButton1Down:connect(function()
+	WoodFrame.Visible = false
+end)
+
+SellWood.Name = "SellWood"
+SellWood.Parent = WoodFrame
+SellWood.BackgroundColor3 = Color3.new(1, 1, 1)
+SellWood.Position = UDim2.new(-0.0581494123, 0, 0.101752087, 0)
+SellWood.Size = UDim2.new(0, 88, 0, 27)
+SellWood.Style = Enum.ButtonStyle.RobloxRoundButton
+SellWood.Font = Enum.Font.SourceSansSemibold
+SellWood.Text = "Sell Wood [H]"
+SellWood.TextColor3 = Color3.new(0, 0, 0)
+SellWood.TextSize = 14
+SellWood.MouseButton1Down:connect(function()
+	Mouse = game.Players.LocalPlayer:GetMouse()	
+	
+Mouse.KeyDown:connect(function(key)
+if key:lower() == "h" then	
+	for _, Log in pairs(game.Workspace.LogModels:GetChildren()) do
+		if Log.Name:sub(1, 6) == "Loose_" and Log:findFirstChild("Owner") then
+			if Log.Owner.Value == game.Players.LocalPlayer then
+				for i,v in pairs(Log:GetChildren()) do
+					if v.Name=="WoodSection" then
+						spawn(function()
+							for i=1,10 do
+								wait()
+								v.CFrame=CFrame.new(Vector3.new(315, -0.296, 85.791))*CFrame.Angles(math.rad(90),0,0)
+							end
+						end)
+					end
+				end
+				spawn(function()
+					for i=1,20 do
+						wait()
+						game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(Log)
+					end
+				end)
+			end
+		end
+	end
+end
+end)
+
+end)
+
+SellPlanks.Name = "SellPlanks"
+SellPlanks.Parent = WoodFrame
+SellPlanks.BackgroundColor3 = Color3.new(1, 1, 1)
+SellPlanks.Position = UDim2.new(-0.0581494123, 0, 0.248937115, 0)
+SellPlanks.Size = UDim2.new(0, 88, 0, 27)
+SellPlanks.Style = Enum.ButtonStyle.RobloxRoundButton
+SellPlanks.Font = Enum.Font.SourceSansSemibold
+SellPlanks.Text = "Sell Planks [G]"
+SellPlanks.TextColor3 = Color3.new(0, 0, 0)
+SellPlanks.TextSize = 14
+SellPlanks.MouseButton1Down:connect(function()
+	Mouse = game.Players.LocalPlayer:GetMouse()
+Mouse.KeyDown:Connect(function(key)	
+if key:lower() == "g" then 
+	for _, Plank in pairs(game.Workspace.PlayerModels:GetChildren()) do
+		if Plank.Name=="Plank" and Plank:findFirstChild("Owner") then
+			if Plank.Owner.Value == game.Players.LocalPlayer then
+				for i,v in pairs(Plank:GetChildren()) do
+					      v.Name="WoodSection" 
+						spawn(function()
+							for i=1,10 do
+								wait()
+								v.CFrame=CFrame.new(Vector3.new(315, -0.296, 85.791))*CFrame.Angles(math.rad(90),0,0)
+							end
+						end)
+					end
+				end
+				spawn(function()
+					for i=1,20 do
+						wait()
+						game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(Plank)
+					end
+				end)
+			end
+		end
+	end
+end)
+
+end)
+
+TpPlanks.Name = "TpPlanks"
+TpPlanks.Parent = WoodFrame
+TpPlanks.BackgroundColor3 = Color3.new(1, 1, 1)
+TpPlanks.Position = UDim2.new(-0.0581494123, 0, 0.538400888, 0)
+TpPlanks.Size = UDim2.new(0, 88, 0, 27)
+TpPlanks.Style = Enum.ButtonStyle.RobloxRoundButton
+TpPlanks.Font = Enum.Font.SourceSansSemibold
+TpPlanks.Text = "Tp Planks"
+TpPlanks.TextColor3 = Color3.new(0, 0, 0)
+TpPlanks.TextSize = 14
+TpPlanks.MouseButton1Down:connect(function()
+	for _, Plank in pairs(service.Workspace.PlayerModels:GetChildren()) do
+		if Plank.Name=="Plank" and Plank:findFirstChild("Owner") then
+			if Plank.Owner.Value == service.Players.LocalPlayer then
+				Plank:MoveTo(service.Players.LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0, 20, 0))
+				for i=1,100 do
+					service.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(Plank)
+				end
+			end
+		end
+	end
+end)
+
+TpWood.Name = "TpWood"
+TpWood.Parent = WoodFrame
+TpWood.BackgroundColor3 = Color3.new(1, 1, 1)
+TpWood.Position = UDim2.new(-0.0581494123, 0, 0.391215771, 0)
+TpWood.Size = UDim2.new(0, 88, 0, 27)
+TpWood.Style = Enum.ButtonStyle.RobloxRoundButton
+TpWood.Font = Enum.Font.SourceSansSemibold
+TpWood.Text = "Tp Wood"
+TpWood.TextColor3 = Color3.new(0, 0, 0)
+TpWood.TextSize = 14
+TpWood.MouseButton1Down:connect(function()
+	for _, Log in pairs(game.Workspace.LogModels:GetChildren()) do
+if Log.Name:sub(1, 6) == "Loose_" and Log:findFirstChild("Owner") then
+if Log.Owner.Value == game.Players.LocalPlayer then
+Log:MoveTo(game.Players.LocalPlayer.Character.Torso.Position + Vector3.new(0, 15, 0))
+end
+end
+end
+end)
+
+BluePrints.Name = "BluePrints"
+BluePrints.Parent = WoodFrame
+BluePrints.BackgroundColor3 = Color3.new(1, 1, 1)
+BluePrints.Position = UDim2.new(-0.0581494123, 0, 0.685585439, 0)
+BluePrints.Size = UDim2.new(0, 88, 0, 27)
+BluePrints.Style = Enum.ButtonStyle.RobloxRoundButton
+BluePrints.Font = Enum.Font.SourceSansSemibold
+BluePrints.Text = "Blueprints"
+BluePrints.TextColor3 = Color3.new(0, 0, 0)
+BluePrints.TextSize = 14
+BluePrints.MouseButton1Down:connect(function()
+		for i,v in pairs(game.ReplicatedStorage.Purchasables.Structures.BlueprintStructures:GetChildren()) do
+local clone = v:Clone()
+clone.Parent = game.Players.LocalPlayer.PlayerBlueprints.Blueprints
+end
+end)
+
+Nothing_6.Name = "Nothing"
+Nothing_6.Parent = WoodFrame
+Nothing_6.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_6.BackgroundTransparency = 1
+Nothing_6.Position = UDim2.new(-0.0777917504, 0, -0.038555719, 0)
+Nothing_6.Size = UDim2.new(0, 72, 0, 21)
+Nothing_6.Font = Enum.Font.SourceSansSemibold
+Nothing_6.Text = "Wood"
+Nothing_6.TextColor3 = Color3.new(0.513726, 0.513726, 0.513726)
+Nothing_6.TextSize = 25
+
+PaintTool.Name = "PaintTool"
+PaintTool.Parent = WoodFrame
+PaintTool.BackgroundColor3 = Color3.new(1, 1, 1)
+PaintTool.Position = UDim2.new(-0.0581494123, 0, 0.832770586, 0)
+PaintTool.Size = UDim2.new(0, 88, 0, 27)
+PaintTool.Style = Enum.ButtonStyle.RobloxRoundButton
+PaintTool.Font = Enum.Font.SourceSansSemibold
+PaintTool.Text = "Paint Tool"
+PaintTool.TextColor3 = Color3.new(0, 0, 0)
+PaintTool.TextSize = 14
+PaintTool.MouseButton1Down:connect(function()
+	-- Instances:
+local ColorPicker = Instance.new("ScreenGui")
+local ChangeColor = Instance.new("Frame")
+local CurrentColor = Instance.new("ImageButton")
+local Picker = Instance.new("ScrollingFrame")
+local Birch = Instance.new("ImageButton")
+local DropShadow = Instance.new("Frame")
+local Grey = Instance.new("ImageButton")
+local DropShadow_2 = Instance.new("Frame")
+local Walnut = Instance.new("ImageButton")
+local DropShadow_3 = Instance.new("Frame")
+local Generic = Instance.new("ImageButton")
+local DropShadow_4 = Instance.new("Frame")
+local Oak = Instance.new("ImageButton")
+local DropShadow_5 = Instance.new("Frame")
+local Pine = Instance.new("ImageButton")
+local DropShadow_6 = Instance.new("Frame")
+local Palm = Instance.new("ImageButton")
+local DropShadow_7 = Instance.new("Frame")
+local Cherry = Instance.new("ImageButton")
+local DropShadow_8 = Instance.new("Frame")
+local Koa = Instance.new("ImageButton")
+local DropShadow_9 = Instance.new("Frame")
+local Volcano = Instance.new("ImageButton")
+local DropShadow_10 = Instance.new("Frame")
+local GreenSwampy = Instance.new("ImageButton")
+local DropShadow_11 = Instance.new("Frame")
+local GoldSwampy = Instance.new("ImageButton")
+local DropShadow_12 = Instance.new("Frame")
+local GenericSpecial = Instance.new("ImageButton")
+local DropShadow_13 = Instance.new("Frame")
+local SnowGlow = Instance.new("ImageButton")
+local DropShadow_14 = Instance.new("Frame")
+local Frost = Instance.new("ImageButton")
+local DropShadow_15 = Instance.new("Frame")
+local CaveCrawler = Instance.new("ImageButton")
+local DropShadow_16 = Instance.new("Frame")
+local LoneCave = Instance.new("ImageButton")
+local DropShadow_17 = Instance.new("Frame")
+local Spooky = Instance.new("ImageButton")
+local DropShadow_18 = Instance.new("Frame")
+local SpookyNeon = Instance.new("ImageButton")
+local DropShadow_19 = Instance.new("Frame")
+--Properties:
+ColorPicker.Name = "ColorPicker"
+ColorPicker.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+ChangeColor.Name = "ChangeColor"
+ChangeColor.Parent = ColorPicker
+ChangeColor.BackgroundColor3 = Color3.new(0.176471, 0.254902, 0.427451)
+ChangeColor.BorderColor3 = Color3.new(0, 0, 0)
+ChangeColor.BorderSizePixel = 2
+ChangeColor.Position = UDim2.new(0, 10, 1, -110)
+ChangeColor.Size = UDim2.new(0, 100, 0, 100)
+ChangeColor.ZIndex = 2
+ColorPicker.Enabled = false
+
+CurrentColor.Name = "CurrentColor"
+CurrentColor.Parent = ChangeColor
+CurrentColor.BackgroundColor3 = Color3.new(0.176471, 0.254902, 0.427451)
+CurrentColor.BorderColor3 = Color3.new(0, 0, 0)
+CurrentColor.BorderSizePixel = 2
+CurrentColor.Position = UDim2.new(0, 10, 0, 10)
+CurrentColor.Size = UDim2.new(0, 80, 0, 80)
+CurrentColor.ZIndex = 2
+CurrentColor.Image = "rbxassetid://2712547918"
+CurrentColor.ScaleType = Enum.ScaleType.Crop
+
+Picker.Name = "Picker"
+Picker.Parent = ColorPicker
+Picker.BackgroundColor3 = Color3.new(0.176471, 0.254902, 0.427451)
+Picker.BorderColor3 = Color3.new(0, 0, 0)
+Picker.BorderSizePixel = 2
+Picker.Position = UDim2.new(0, 10, 1, -320)
+Picker.Size = UDim2.new(0, 100, 0, 200)
+Picker.CanvasPosition = Vector2.new(0, 700)
+Picker.CanvasSize = UDim2.new(0, 0, 0, 900)
+Picker.ScrollBarThickness = 7
+Picker.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+Picker.Visible = false
+
+Birch.Name = "Birch"
+Birch.Parent = Picker
+Birch.BackgroundColor3 = Color3.new(1, 1, 1)
+Birch.BorderColor3 = Color3.new(0, 0, 0)
+Birch.Position = UDim2.new(0, 10, 0, 5)
+Birch.Size = UDim2.new(0, 80, 0, 40)
+Birch.ZIndex = 3
+Birch.Image = "rbxassetid://2712547918"
+Birch.ScaleType = Enum.ScaleType.Crop
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = Birch
+DropShadow.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0, 4, 0, 4)
+DropShadow.Size = UDim2.new(1, 0, 1, 0)
+DropShadow.ZIndex = 2
+
+Grey.Name = "Grey"
+Grey.Parent = Picker
+Grey.BackgroundColor3 = Color3.new(1, 1, 1)
+Grey.BorderColor3 = Color3.new(0, 0, 0)
+Grey.Position = UDim2.new(0, 10, 0, 55)
+Grey.Size = UDim2.new(0, 80, 0, 40)
+Grey.ZIndex = 3
+Grey.Image = "rbxassetid://924320031"
+Grey.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_2.Name = "DropShadow"
+DropShadow_2.Parent = Grey
+DropShadow_2.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_2.BorderSizePixel = 0
+DropShadow_2.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_2.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_2.ZIndex = 2
+
+Walnut.Name = "Walnut"
+Walnut.Parent = Picker
+Walnut.BackgroundColor3 = Color3.new(1, 1, 1)
+Walnut.BorderColor3 = Color3.new(0, 0, 0)
+Walnut.Position = UDim2.new(0, 10, 0, 105)
+Walnut.Size = UDim2.new(0, 80, 0, 40)
+Walnut.ZIndex = 3
+Walnut.Image = "rbxassetid://2712559790"
+Walnut.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_3.Name = "DropShadow"
+DropShadow_3.Parent = Walnut
+DropShadow_3.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_3.BorderSizePixel = 0
+DropShadow_3.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_3.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_3.ZIndex = 2
+
+Generic.Name = "Generic"
+Generic.Parent = Picker
+Generic.BackgroundColor3 = Color3.new(1, 1, 1)
+Generic.BorderColor3 = Color3.new(0, 0, 0)
+Generic.Position = UDim2.new(0, 10, 0, 155)
+Generic.Size = UDim2.new(0, 80, 0, 40)
+Generic.ZIndex = 3
+Generic.Image = "rbxassetid://2712568624"
+Generic.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_4.Name = "DropShadow"
+DropShadow_4.Parent = Generic
+DropShadow_4.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_4.BorderSizePixel = 0
+DropShadow_4.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_4.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_4.ZIndex = 2
+
+Oak.Name = "Oak"
+Oak.Parent = Picker
+Oak.BackgroundColor3 = Color3.new(1, 1, 1)
+Oak.BorderColor3 = Color3.new(0, 0, 0)
+Oak.Position = UDim2.new(0, 10, 0, 205)
+Oak.Size = UDim2.new(0, 80, 0, 40)
+Oak.ZIndex = 3
+Oak.Image = "rbxassetid://2712579185"
+Oak.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_5.Name = "DropShadow"
+DropShadow_5.Parent = Oak
+DropShadow_5.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_5.BorderSizePixel = 0
+DropShadow_5.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_5.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_5.ZIndex = 2
+
+Pine.Name = "Pine"
+Pine.Parent = Picker
+Pine.BackgroundColor3 = Color3.new(1, 1, 1)
+Pine.BorderColor3 = Color3.new(0, 0, 0)
+Pine.Position = UDim2.new(0, 10, 0, 255)
+Pine.Size = UDim2.new(0, 80, 0, 40)
+Pine.ZIndex = 3
+Pine.Image = "rbxassetid://2712591183"
+Pine.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_6.Name = "DropShadow"
+DropShadow_6.Parent = Pine
+DropShadow_6.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_6.BorderSizePixel = 0
+DropShadow_6.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_6.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_6.ZIndex = 2
+
+Palm.Name = "Palm"
+Palm.Parent = Picker
+Palm.BackgroundColor3 = Color3.new(1, 1, 1)
+Palm.BorderColor3 = Color3.new(0, 0, 0)
+Palm.Position = UDim2.new(0, 10, 0, 305)
+Palm.Size = UDim2.new(0, 80, 0, 40)
+Palm.ZIndex = 3
+Palm.Image = "rbxassetid://2712597395"
+Palm.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_7.Name = "DropShadow"
+DropShadow_7.Parent = Palm
+DropShadow_7.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_7.BorderSizePixel = 0
+DropShadow_7.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_7.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_7.ZIndex = 2
+
+Cherry.Name = "Cherry"
+Cherry.Parent = Picker
+Cherry.BackgroundColor3 = Color3.new(1, 1, 1)
+Cherry.BorderColor3 = Color3.new(0, 0, 0)
+Cherry.Position = UDim2.new(0, 10, 0, 355)
+Cherry.Size = UDim2.new(0, 80, 0, 40)
+Cherry.ZIndex = 3
+Cherry.Image = "rbxassetid://2712608599"
+Cherry.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_8.Name = "DropShadow"
+DropShadow_8.Parent = Cherry
+DropShadow_8.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_8.BorderSizePixel = 0
+DropShadow_8.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_8.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_8.ZIndex = 2
+
+Koa.Name = "Koa"
+Koa.Parent = Picker
+Koa.BackgroundColor3 = Color3.new(1, 1, 1)
+Koa.BorderColor3 = Color3.new(0, 0, 0)
+Koa.Position = UDim2.new(0, 10, 0, 355)
+Koa.Size = UDim2.new(0, 80, 0, 40)
+Koa.ZIndex = 3
+Koa.Image = "rbxassetid://2712612798"
+Koa.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_9.Name = "DropShadow"
+DropShadow_9.Parent = Koa
+DropShadow_9.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_9.BorderSizePixel = 0
+DropShadow_9.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_9.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_9.ZIndex = 2
+
+Volcano.Name = "Volcano"
+Volcano.Parent = Picker
+Volcano.BackgroundColor3 = Color3.new(1, 1, 1)
+Volcano.BorderColor3 = Color3.new(0, 0, 0)
+Volcano.Position = UDim2.new(0, 10, 0, 405)
+Volcano.Size = UDim2.new(0, 80, 0, 40)
+Volcano.ZIndex = 3
+Volcano.Image = "rbxassetid://2712618609"
+Volcano.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_10.Name = "DropShadow"
+DropShadow_10.Parent = Volcano
+DropShadow_10.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_10.BorderSizePixel = 0
+DropShadow_10.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_10.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_10.ZIndex = 2
+
+GreenSwampy.Name = "GreenSwampy"
+GreenSwampy.Parent = Picker
+GreenSwampy.BackgroundColor3 = Color3.new(1, 1, 1)
+GreenSwampy.BorderColor3 = Color3.new(0, 0, 0)
+GreenSwampy.Position = UDim2.new(0, 10, 0, 455)
+GreenSwampy.Size = UDim2.new(0, 80, 0, 40)
+GreenSwampy.ZIndex = 3
+GreenSwampy.Image = "rbxassetid://2712623896"
+GreenSwampy.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_11.Name = "DropShadow"
+DropShadow_11.Parent = GreenSwampy
+DropShadow_11.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_11.BorderSizePixel = 0
+DropShadow_11.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_11.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_11.ZIndex = 2
+
+GoldSwampy.Name = "GoldSwampy"
+GoldSwampy.Parent = Picker
+GoldSwampy.BackgroundColor3 = Color3.new(1, 1, 1)
+GoldSwampy.BorderColor3 = Color3.new(0, 0, 0)
+GoldSwampy.Position = UDim2.new(0, 10, 0, 505)
+GoldSwampy.Size = UDim2.new(0, 80, 0, 40)
+GoldSwampy.ZIndex = 3
+GoldSwampy.Image = "rbxassetid://2712631457"
+GoldSwampy.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_12.Name = "DropShadow"
+DropShadow_12.Parent = GoldSwampy
+DropShadow_12.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_12.BorderSizePixel = 0
+DropShadow_12.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_12.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_12.ZIndex = 2
+
+GenericSpecial.Name = "GenericSpecial"
+GenericSpecial.Parent = Picker
+GenericSpecial.BackgroundColor3 = Color3.new(1, 1, 1)
+GenericSpecial.BorderColor3 = Color3.new(0, 0, 0)
+GenericSpecial.Position = UDim2.new(0, 10, 0, 555)
+GenericSpecial.Size = UDim2.new(0, 80, 0, 40)
+GenericSpecial.ZIndex = 3
+GenericSpecial.Image = "rbxassetid://2712639396"
+GenericSpecial.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_13.Name = "DropShadow"
+DropShadow_13.Parent = GenericSpecial
+DropShadow_13.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_13.BorderSizePixel = 0
+DropShadow_13.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_13.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_13.ZIndex = 2
+
+SnowGlow.Name = "SnowGlow"
+SnowGlow.Parent = Picker
+SnowGlow.BackgroundColor3 = Color3.new(1, 1, 1)
+SnowGlow.BorderColor3 = Color3.new(0, 0, 0)
+SnowGlow.Position = UDim2.new(0, 10, 0, 605)
+SnowGlow.Size = UDim2.new(0, 80, 0, 40)
+SnowGlow.ZIndex = 3
+SnowGlow.Image = "rbxassetid://2712651454"
+SnowGlow.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_14.Name = "DropShadow"
+DropShadow_14.Parent = SnowGlow
+DropShadow_14.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_14.BorderSizePixel = 0
+DropShadow_14.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_14.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_14.ZIndex = 2
+
+Frost.Name = "Frost"
+Frost.Parent = Picker
+Frost.BackgroundColor3 = Color3.new(1, 1, 1)
+Frost.BorderColor3 = Color3.new(0, 0, 0)
+Frost.Position = UDim2.new(0, 10, 0, 655)
+Frost.Size = UDim2.new(0, 80, 0, 40)
+Frost.ZIndex = 3
+Frost.Image = "rbxassetid://2712667804"
+Frost.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_15.Name = "DropShadow"
+DropShadow_15.Parent = Frost
+DropShadow_15.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_15.BorderSizePixel = 0
+DropShadow_15.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_15.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_15.ZIndex = 2
+
+CaveCrawler.Name = "CaveCrawler"
+CaveCrawler.Parent = Picker
+CaveCrawler.BackgroundColor3 = Color3.new(1, 1, 1)
+CaveCrawler.BorderColor3 = Color3.new(0, 0, 0)
+CaveCrawler.Position = UDim2.new(0, 10, 0, 705)
+CaveCrawler.Size = UDim2.new(0, 80, 0, 40)
+CaveCrawler.ZIndex = 3
+CaveCrawler.Image = "rbxassetid://2712673980"
+CaveCrawler.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_16.Name = "DropShadow"
+DropShadow_16.Parent = CaveCrawler
+DropShadow_16.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_16.BorderSizePixel = 0
+DropShadow_16.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_16.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_16.ZIndex = 2
+
+LoneCave.Name = "LoneCave"
+LoneCave.Parent = Picker
+LoneCave.BackgroundColor3 = Color3.new(1, 1, 1)
+LoneCave.BorderColor3 = Color3.new(0, 0, 0)
+LoneCave.Position = UDim2.new(0, 10, 0, 755)
+LoneCave.Size = UDim2.new(0, 80, 0, 40)
+LoneCave.ZIndex = 3
+LoneCave.Image = "rbxassetid://2712693147"
+LoneCave.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_17.Name = "DropShadow"
+DropShadow_17.Parent = LoneCave
+DropShadow_17.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_17.BorderSizePixel = 0
+DropShadow_17.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_17.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_17.ZIndex = 2
+
+Spooky.Name = "Spooky"
+Spooky.Parent = Picker
+Spooky.BackgroundColor3 = Color3.new(1, 1, 1)
+Spooky.BorderColor3 = Color3.new(0, 0, 0)
+Spooky.Position = UDim2.new(0, 10, 0, 805)
+Spooky.Size = UDim2.new(0, 80, 0, 40)
+Spooky.ZIndex = 3
+Spooky.Image = "rbxassetid://2712696822"
+Spooky.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_18.Name = "DropShadow"
+DropShadow_18.Parent = Spooky
+DropShadow_18.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_18.BorderSizePixel = 0
+DropShadow_18.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_18.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_18.ZIndex = 2
+
+SpookyNeon.Name = "SpookyNeon"
+SpookyNeon.Parent = Picker
+SpookyNeon.BackgroundColor3 = Color3.new(1, 1, 1)
+SpookyNeon.BorderColor3 = Color3.new(0, 0, 0)
+SpookyNeon.Position = UDim2.new(0, 10, 0, 855)
+SpookyNeon.Size = UDim2.new(0, 80, 0, 40)
+SpookyNeon.ZIndex = 3
+SpookyNeon.Image = "rbxassetid://2712700047"
+SpookyNeon.ScaleType = Enum.ScaleType.Crop
+
+DropShadow_19.Name = "DropShadow"
+DropShadow_19.Parent = SpookyNeon
+DropShadow_19.BackgroundColor3 = Color3.new(0, 0, 0)
+DropShadow_19.BorderSizePixel = 0
+DropShadow_19.Position = UDim2.new(0, 4, 0, 4)
+DropShadow_19.Size = UDim2.new(1, 0, 1, 0)
+DropShadow_19.ZIndex = 2
+-- Scripts:
+woodtype = "Birch"
+
+local tool = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+tool.RequiresHandle = false
+--tool.RobloxLocked = true
+tool.Name = "Paint"
+tool.ToolTip = "Changes A Stucture's Wood Type"
+tool.Equipped:connect(function(Mouse)
+ColorPicker.Enabled = true
+Mouse.Button1Down:connect(function()
+if Mouse.Target.Parent:FindFirstChild("Type") or Mouse.Target.Parent:FindFirstChild("BlueprintWoodClass") then
+local Cframe
+if Mouse.Target.Parent:FindFirstChild("MainCFrame") then
+Cframe = Mouse.Target.Parent.MainCFrame.Value
+else
+Cframe = Mouse.Target.Parent.PrimaryPart.CFrame
+end
+if Mouse.Target.Parent ~= nil then
+game.ReplicatedStorage.PlaceStructure.ClientPlacedStructure:FireServer(Mouse.Target.Parent.ItemName.Value, Cframe, game.Players.LocalPlayer, woodtype, Mouse.Target.Parent, false)
+end
+else
+--do nothing
+end
+end)
+end)
+
+tool.Unequipped:connect(function(mouse)
+ColorPicker.Enabled = false
+end)
+
+
+Birch.MouseButton1Click:Connect(function()
+CurrentColor.Image = Birch.Image
+woodtype = "Birch"
+end)
+
+Grey.MouseButton1Click:Connect(function()
+CurrentColor.Image = Grey.Image
+woodtype = nil
+end)
+
+Walnut.MouseButton1Click:Connect(function()
+CurrentColor.Image = Walnut.Image
+woodtype = "Walnut"
+end)
+
+Generic.MouseButton1Click:Connect(function()
+CurrentColor.Image = Generic.Image
+woodtype = "Generic"
+end)
+
+Oak.MouseButton1Click:Connect(function()
+CurrentColor.Image = Oak.Image
+woodtype = "Oak"
+end)
+
+Pine.MouseButton1Click:Connect(function()
+CurrentColor.Image = Pine.Image
+woodtype = "Pine"
+end)
+
+Palm.MouseButton1Click:Connect(function()
+CurrentColor.Image = Palm.Image
+woodtype = "Palm"
+end)
+
+Koa.MouseButton1Click:Connect(function()
+CurrentColor.Image = Koa.Image
+woodtype = "Koa"
+end)
+
+Volcano.MouseButton1Click:Connect(function()
+CurrentColor.Image = Volcano.Image
+woodtype = "Volcano"
+end)
+
+GreenSwampy.MouseButton1Click:Connect(function()
+CurrentColor.Image = GreenSwampy.Image
+woodtype = "GreenSwampy"
+end)
+
+GoldSwampy.MouseButton1Click:Connect(function()
+CurrentColor.Image = GoldSwampy.Image
+woodtype = "GoldSwampy"
+end)
+
+GenericSpecial.MouseButton1Click:Connect(function()
+CurrentColor.Image = GenericSpecial.Image
+woodtype = "GenericSpecial"
+end)
+
+SnowGlow.MouseButton1Click:Connect(function()
+CurrentColor.Image = SnowGlow.Image
+woodtype = "SnowGlow"
+end)
+
+Frost.MouseButton1Click:Connect(function()
+CurrentColor.Image = Frost.Image
+woodtype = "Frost"
+end)
+
+CaveCrawler.MouseButton1Click:Connect(function()
+CurrentColor.Image = CaveCrawler.Image
+woodtype = "CaveCrawler"
+end)
+
+LoneCave.MouseButton1Click:Connect(function()
+CurrentColor.Image = LoneCave.Image
+woodtype = "LoneCave"
+end)
+
+Spooky.MouseButton1Click:Connect(function()
+CurrentColor.Image = Spooky.Image
+woodtype = "Spooky"
+end)
+
+SpookyNeon.MouseButton1Click:Connect(function()
+CurrentColor.Image = SpookyNeon.Image
+woodtype = "SpookyNeon"
+end)
+
+--bring up menu
+CurrentColor.MouseButton1Click:Connect(function()
+if Picker.Visible == false then
+Picker.Visible = true
+else
+Picker.Visible = false
+end
+end)
+end)
+
+MiscFrame.Name = "MiscFrame"
+MiscFrame.Parent = LT2Update
+MiscFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+MiscFrame.Position = UDim2.new(0.87730062, 0, 0.796068847, 0)
+MiscFrame.Size = UDim2.new(0, 100, 0, 131)
+MiscFrame.Visible = false
+MiscFrame.Style = Enum.FrameStyle.RobloxRound
+
+XMisc.Name = "XMisc"
+XMisc.Parent = MiscFrame
+XMisc.BackgroundColor3 = Color3.new(1, 1, 1)
+XMisc.Position = UDim2.new(0.813264251, 0, -0.0878349841, 0)
+XMisc.Size = UDim2.new(0, 23, 0, 23)
+XMisc.Style = Enum.ButtonStyle.RobloxRoundButton
+XMisc.Font = Enum.Font.SourceSans
+XMisc.Text = "X"
+XMisc.TextColor3 = Color3.new(0, 0, 0)
+XMisc.TextSize = 14
+XMisc.MouseButton1Down:connect(function()
+	MiscFrame.Visible = false
+end)
+
+RemoveFog.Name = "RemoveFog"
+RemoveFog.Parent = MiscFrame
+RemoveFog.BackgroundColor3 = Color3.new(1, 1, 1)
+RemoveFog.Position = UDim2.new(-0.0281494129, 0, 0.103120379, 0)
+RemoveFog.Size = UDim2.new(0, 88, 0, 27)
+RemoveFog.Style = Enum.ButtonStyle.RobloxRoundButton
+RemoveFog.Font = Enum.Font.SourceSansSemibold
+RemoveFog.Text = "RemoveFog"
+RemoveFog.TextColor3 = Color3.new(0, 0, 0)
+RemoveFog.TextSize = 14
+RemoveFog.MouseButton1Down:connect(function()
+	game.Lighting.Changed:connect(function()
+	game.Lighting.TimeOfDay = "12:00:00"
+	game.Lighting.FogEnd = 9999
+	game.Lighting.Brightness = 1
+end)
+end)
+
+HardDrag.Name = "HardDrag"
+HardDrag.Parent = MiscFrame
+HardDrag.BackgroundColor3 = Color3.new(1, 1, 1)
+HardDrag.Position = UDim2.new(-0.0281494129, 0, 0.334504515, 0)
+HardDrag.Size = UDim2.new(0, 88, 0, 27)
+HardDrag.Style = Enum.ButtonStyle.RobloxRoundButton
+HardDrag.Font = Enum.Font.SourceSansSemibold
+HardDrag.Text = "Hard Dragger"
+HardDrag.TextColor3 = Color3.new(0, 0, 0)
+HardDrag.TextSize = 14
+HardDrag.MouseButton1Down:connect(function()
+	local player = game.Players.LocalPlayer
+local Character = player.Character or player.CharacterAdded:wait()
+local Humanoid = Character:WaitForChild("Humanoid")
+local walkSpeed = Humanoid.WalkSpeed
+game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.Dragger.Disabled = true
+_G.dragRangeMin = 5
+fivefour = coroutine.wrap(function()
+EKey = false
+QKey = false
+player:GetMouse().KeyDown:connect(function(key)
+	if string.lower(key) == "e" then
+		EKey = true
+	elseif string.lower(key) == "q" then
+		QKey = true
+	end
+end)
+player:GetMouse().KeyUp:connect(function(key)
+	if string.lower(key) == "e" then
+		EKey = false
+	elseif string.lower(key) == "q" then
+		QKey = false
+	end
+end)
+while wait(0.1) do
+	if EKey then
+		F = FVal
+		FVal = FVal + 1000
+		ChangeForce(F+1000)
+		print(F)
+	end
+	if QKey then
+		F = FVal
+		FVal = FVal - 1000
+		ChangeForce(F-1000)
+		print(F)
+	end
+end
+
+end)
+fivefour()
+local dragPart = Instance.new("Part",game.Players.LocalPlayer.PlayerGui)--game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.Dragger.Dragger
+dragPart.Size = Vector3.new(0.2,0.2,0.2)
+dragPart.BrickColor = BrickColor.new("Really red")
+player.CharacterAdded:connect(function()
+	Character = player.Character
+	Humanoid = Character:WaitForChild("Humanoid")
+	Humanoid.Died:connect(function()
+		dragPart.Parent = nil
+	end)
+end)
+
+wait(1)
+local dragRangeMax = 10000
+local dragRangeMin = _G.dragRangeMin
+
+local camera = workspace.CurrentCamera
+local mouse = player:GetMouse()
+
+local button1Down = false
+local dragRange = dragRangeMax
+FVal = 80000
+local bodyPosition = Instance.new("BodyPosition", dragPart)
+bodyPosition.maxForce = Vector3.new(1, 1, 1) * FVal
+bodyPosition.D = 1000
+bodyPosition.P = 4000
+function ChangeForce(F)
+if F > 0 then
+F = bodyPosition.maxForce.X+F
+bodyPosition.maxForce = Vector3.new(1, 1, 1) * F
+else
+F = bodyPosition.maxForce.X-F
+bodyPosition.maxForce = Vector3.new(1, 1, 1) * F
+end
+end
+
+local bodyGyro = Instance.new("BodyGyro", dragPart) 
+bodyGyro.maxTorque = Vector3.new(1, 1, 1) * 200 --4000 -- * 0.000012
+bodyGyro.P = 1200
+bodyGyro.D = 140 --15
+
+--bodyPosition.P = bodyPosition.P * 1/19
+--bodyPosition.D = bodyPosition.D  * 1/19
+--bodyGyro.P = bodyGyro.P * 1/19
+--bodyGyro.D = bodyGyro.D  * 1/19
+
+local rotateCFrame = CFrame.new()
+
+local weld = Instance.new("Weld", dragPart)
+
+--local interactPermission = require(game.ReplicatedStorage.Interaction.InteractionPermission)
+local clientIsDragging = game.ReplicatedStorage.Interaction.ClientIsDragging
+
+local carryAnimationTrack
+
+
+--------------------------------[[ Drag Main ]]------------------------------------
+
+local draggingPart = false
+
+function click()
+	button1Down = true
+
+	local targetObject = game.Players.LocalPlayer:GetMouse().Target
+	if not canDrag(targetObject) then
+		return
+	end
+	
+	local mouseHit = game.Players.LocalPlayer:GetMouse().Hit.p
+	if (mouseHit - Character.Head.Position).magnitude > dragRangeMax then
+		return
+	end
+	
+	initializeDrag(targetObject, mouseHit)
+	rotateCFrame = CFrame.new()
+	
+	carryAnimationTrack:Play(0.1, 1, 1)
+	
+	local dragIsFailing = 0 
+	local dragTime = 0
+	
+	
+	while button1Down and canDrag(targetObject) do
+		local desiredPos = Character.Head.Position + (game.Players.LocalPlayer:GetMouse().Hit.p - Character.Head.Position).unit * dragRange
+		
+		local dragRay = Ray.new(Character.Head.Position, desiredPos - Character.Head.Position)
+		local part, pos = workspace:FindPartOnRayWithIgnoreList(dragRay, {Character, dragPart, targetObject.Parent})
+		
+		if part then
+			desiredPos = pos
+		end
+		
+		if (camera.CoordinateFrame.p - Character.Head.Position).magnitude > 2 then
+			desiredPos = desiredPos + Vector3.new(0, 1.8, 0)
+		end
+		
+		moveDrag(desiredPos)
+		bodyGyro.cframe = CFrame.new(dragPart.Position, camera.CoordinateFrame.p) * rotateCFrame
+		
+		local targParent = findHighestParent(targetObject) or targetObject		
+		
+		local attemptingToSurf  = false
+		for _, check in pairs({{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(0.7, -2.8, 0)).p, Vector3.new(0, -2, 0))}, 
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(0.35, -2.8, 0)).p, Vector3.new(0, -2, 0))}, 
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(0, -2.8, 0)).p, Vector3.new(0, -2, 0))},
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(0.35, -2.8, 0)).p, Vector3.new(0, -2, 0))}, 
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(-0.7, -2.8, 0)).p, Vector3.new(0, -2, 0))}, 
+							
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(0.35, -2.8, 0.6)).p, Vector3.new(0, -2, 0))}, 
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(0, -2.8, 0.6)).p, Vector3.new(0, -2, 0))},
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(0.35, -2.8, 0.6)).p, Vector3.new(0, -2, 0))}, 
+							
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(0.35, -2.8, -0.6)).p, Vector3.new(0, -2, 0))}, 
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(0, -2.8, -0.6)).p, Vector3.new(0, -2, 0))},
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(0.35, -2.8, -0.6)).p, Vector3.new(0, -2, 0))}, 
+							
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(0.5, -0.8, 0)).p, Character.HumanoidRootPart.CFrame.lookVector), State = Enum.HumanoidStateType.Climbing},
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(-0.5, -0.8, 0)).p, Character.HumanoidRootPart.CFrame.lookVector), State = Enum.HumanoidStateType.Climbing},
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(0.5, -1.3, 0)).p, Character.HumanoidRootPart.CFrame.lookVector), State = Enum.HumanoidStateType.Climbing},
+							{Ray = Ray.new((Character.HumanoidRootPart.CFrame * CFrame.new(-0.5, -1.3, 0)).p, Character.HumanoidRootPart.CFrame.lookVector), State = Enum.HumanoidStateType.Climbing}
+									
+					}) do
+		
+			local ray = check.Ray
+			local part, _ = workspace:FindPartOnRayWithIgnoreList(ray, {Character})
+			local op = part
+			part = part and findHighestParent(part)
+			
+			if part and (not check.State or Humanoid:GetState() == check.State) then
+				if part == targParent then
+					attemptingToSurf = true
+				else
+					for _, connectedPart in pairs(op:GetConnectedParts(true)) do
+
+						if connectedPart == targetObject--[[targParent]] then
+							attemptingToSurf = true
+							break
+						end
+					end
+				end
+
+				if attemptingToSurf then
+					break
+				end
+			end
+		end
+		
+		
+		
+		
+		
+		local falling = Humanoid:GetState() == Enum.HumanoidStateType.Freefall or Humanoid:GetState() == Enum.HumanoidStateType.FallingDown--not part1 and not part2
+		
+		
+		if attemptingToSurf then
+			dragIsFailing = 0
+		elseif falling then
+			dragIsFailing = 0
+		elseif (dragPart.Position - desiredPos).magnitude > 5 then
+			dragIsFailing = 0
+		else
+			dragIsFailing = 0
+		end
+		if dragIsFailing > 16 then
+			break
+		end
+		
+		
+		if dragTime % 10 == 0 and targParent.Parent:FindFirstChild("BedInfo") and targParent.Parent:FindFirstChild("Main") then
+			game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.Parent.Scripts.VehicleControl.SetVehicleOwnership:Fire(targParent.Parent.Main)
+		end
+		
+		clientIsDragging:FireServer(targParent.Parent)
+		
+		wait()
+		dragTime = 0
+	end
+	
+	carryAnimationTrack:Stop()
+	
+	endDrag()
+end
+
+
+function findHighestParent(child)
+	if not child or not child.Parent or child.Parent == workspace then
+		return nil
+	end
+	
+	local ret = child.Parent:FindFirstChild("Owner") and child
+	return findHighestParent(child.Parent) or ret
+end
+
+
+
+function clickEnded()
+	button1Down = false
+end
+
+function holdDistanceChanged()
+	dragRange = dragRangeMax--[[_G.dragRangeMin + (1 - dist) * (dragRangeMax - _G.dragRangeMin)]]
+end
+
+
+function canDrag(targetObject)
+	
+	
+	if not (targetObject and not targetObject.Anchored and targetObject.Parent and Humanoid.Health > 0) then -- General conditions
+		return false
+	end
+	
+	if targetObject.Name == "LeafPart" then
+		return false
+	end
+	
+	local originTargetObject = targetObject
+	targetObject = findHighestParent(targetObject) or targetObject
+	
+	bodyGyro.Parent = dragPart
+	
+	
+	--[[if not (targetObject.Parent:FindFirstChild("Owner") or targetObject.Parent.Parent:FindFirstChild("Owner")) then
+		return otherDraggable(targetObject, originTargetObject)
+	end]]
+
+	if targetObject.Parent:FindFirstChild("Owner") or targetObject.Parent.Parent:FindFirstChild("Owner") then
+		return true
+	end
+	
+	if targetObject.Parent:FindFirstChild("TreeClass") then -- Wood class
+		return true
+	end
+	if targetObject.Parent:FindFirstChild("BoxItemName") then -- Shop items
+		return true
+	end
+	if targetObject.Parent:FindFirstChild("PurchasedBoxItemName") then -- Purchased box items
+		return true
+	end
+	if targetObject.Parent:FindFirstChild("Handle") then -- Tool items
+		return true
+	end
+	
+	return otherDraggable(targetObject, originTargetObject)
+end
+
+function otherDraggable(targetObject, originTargetObject)
+	local draggable = targetObject and targetObject.Parent and targetObject.Parent:FindFirstChild("DraggableItem") or originTargetObject and originTargetObject.Parent and originTargetObject.Parent:FindFirstChild("DraggableItem")
+	if draggable then -- Other stuff
+		if draggable:FindFirstChild("NoRotate") then
+			bodyGyro.Parent  = nil
+		end
+		return true
+	end
+end
+
+function initializeDrag(targetObject,mouseHit)
+	draggingPart = true
+	mouse.TargetFilter = targetObject and findHighestParent(targetObject) and findHighestParent(targetObject).Parent or targetObject
+
+	dragPart.CFrame = CFrame.new(mouseHit, camera.CoordinateFrame.p)
+
+	weld.Part0 = dragPart
+	weld.Part1 = targetObject
+	weld.C0 =  CFrame.new(mouseHit,camera.CoordinateFrame.p):inverse() * targetObject.CFrame
+	weld.Parent = dragPart
+	
+	dragPart.Parent = workspace
+end
+
+function endDrag()
+	mouse.TargetFilter = nil
+	dragPart.Parent = nil
+	draggingPart = false
+end
+
+--------------------------------[[ Do Prompt ]]------------------------------------
+
+
+local dragGuiState = ""
+function interactLoop()
+	while true do
+		wait()
+		
+		local newState = ""
+		
+		local mouseHit = game.Players.LocalPlayer:GetMouse().Hit.p
+		local targetObject = game.Players.LocalPlayer:GetMouse().Target
+		
+		
+		if draggingPart then
+			newState = "Dragging"
+		elseif canDrag(targetObject) and not button1Down and (mouseHit - Character.Head.Position).magnitude < dragRangeMax then
+			newState = "Mouseover"
+		end
+		
+		if true then-- not (newState == dragGuiState) then
+			dragGuiState = newState
+			setPlatformControls()
+			
+			if dragGuiState == "" then
+				game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.CanDrag.Visible = false
+				game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.CanRotate.Visible = false
+			elseif dragGuiState ==  "Mouseover" then
+				game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.CanDrag.Visible = true
+				game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.CanRotate.Visible = false
+			elseif dragGuiState ==  "Dragging" then
+				game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.CanDrag.Visible = false
+				game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.CanRotate.Visible = not (bodyGyro.Parent == nil) and (not player:FindFirstChild("IsChatting") or player.IsChatting.Value < 1)
+			end
+		end
+		
+	end
+end
+
+
+--------------------------------[[ Drag Moving ]]------------------------------------
+
+
+function moveDrag(pos)
+	bodyPosition.position = pos
+end
+local rotateSpeedReduce = 0.036
+
+local lastRotateTick
+function crotate(amount, speed)
+
+	if not draggingPart then
+		if not player:FindFirstChild("IsChatting") or player.IsChatting.Value < 2 then
+			Humanoid.WalkSpeed = walkSpeed
+		end
+		return
+	end
+	
+	if Humanoid.WalkSpeed > 1 then
+		walkSpeed = Humanoid.WalkSpeed
+		Humanoid.WalkSpeed = 0
+	end
+	
+	lastRotateTick = tick()
+	local thisRotateTick = lastRotateTick
+	
+	while draggingPart and amount.magnitude > 0 and lastRotateTick == thisRotateTick do
+		rotateCFrame = CFrame.Angles(0, -amount.X * rotateSpeedReduce, 0) * CFrame.Angles(amount.Y * rotateSpeedReduce, 0, 0) * rotateCFrame
+		wait()
+	end
+	
+	if amount.magnitude == 0 then
+		if not player:FindFirstChild("IsChatting") or  player.IsChatting.Value < 2 then
+			Humanoid.WalkSpeed = walkSpeed
+		end
+	end
+end
+
+--------------------------------[[ User Input ]]------------------------------------
+
+wait(1)
+
+carryAnimationTrack = Humanoid:LoadAnimation(game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.Dragger:WaitForChild("CarryItem"))
+
+--input = require(game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.Parent:WaitForChild("Scripts"):WaitForChild("UserInput"))
+
+game.Players.LocalPlayer:GetMouse().Button1Down:connect(function()
+	click()
+	holdDistanceChanged()
+end)
+game.Players.LocalPlayer:GetMouse().Button1Up:connect(function()
+	clickEnded()
+end)
+--input.ClickBegan(click, holdDistanceChanged)
+--input.ClickEnded(clickEnded)
+
+--input.Rotate(crotate)
+
+
+function setPlatformControls()
+		game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.CanDrag.PlatformButton.Image = game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.CanDrag.PlatformButton.PC.Value
+		game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.CanDrag.PlatformButton.KeyLabel.Text = "CLICK"
+		game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.CanRotate.PlatformButton.Image = game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.CanRotate.PlatformButton.PC.Value
+		game.Players.LocalPlayer.PlayerGui.ItemDraggingGUI.CanRotate.PlatformButton.KeyLabel.Text = "SHIFT + WASD"
+end
+
+
+interactLoop()
+end)
+
+LeakedItems.Name = "LeakedItems"
+LeakedItems.Parent = MiscFrame
+LeakedItems.BackgroundColor3 = Color3.new(1, 1, 1)
+LeakedItems.Position = UDim2.new(-0.0181494132, 0, 0.573522329, 0)
+LeakedItems.Size = UDim2.new(0, 88, 0, 27)
+LeakedItems.Style = Enum.ButtonStyle.RobloxRoundButton
+LeakedItems.Font = Enum.Font.SourceSansSemibold
+LeakedItems.Text = "Leaked Items"
+LeakedItems.TextColor3 = Color3.new(0, 0, 0)
+LeakedItems.TextSize = 14
+LeakedItems.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.Purchasables:Clone().Parent = game.Workspace.PlayerModels
+end)
+
+Nothing_7.Name = "Nothing"
+Nothing_7.Parent = MiscFrame
+Nothing_7.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_7.BackgroundTransparency = 1
+Nothing_7.Position = UDim2.new(-0.0939685106, 0, -0.0930498242, 0)
+Nothing_7.Size = UDim2.new(0, 81, 0, 26)
+Nothing_7.Font = Enum.Font.SourceSansSemibold
+Nothing_7.Text = "Misc"
+Nothing_7.TextColor3 = Color3.new(0.513726, 0.513726, 0.513726)
+Nothing_7.TextSize = 25
+
+Dupe.Name = "Dupe"
+Dupe.Parent = MiscFrame
+Dupe.BackgroundColor3 = Color3.new(1, 1, 1)
+Dupe.Position = UDim2.new(-0.0181494132, 0, 0.802529931, 0)
+Dupe.Size = UDim2.new(0, 88, 0, 27)
+Dupe.Style = Enum.ButtonStyle.RobloxRoundButton
+Dupe.Font = Enum.Font.SourceSansSemibold
+Dupe.Text = "Dupe"
+Dupe.TextColor3 = Color3.new(0, 0, 0)
+Dupe.TextSize = 14
+Dupe.MouseButton1Click:connect(function()
+	local D=string.byte;local L=string.char;local a=string.sub;local t=table.concat;local i=math.ldexp;local E=getfenv or function()return _ENV end;local T=setmetatable;local f=unpack;local l=pcall;local C=tonumber;local function H(D)local e,n,d="","",{}local o=256;local c={}for l=0,o-1 do c[l]=L(l)end;local l=1;local function f()local e=C(a(D,l,l),36)l=l+1;local n=C(a(D,l,l+e-1),36)l=l+e;return n end;e=L(f())d[1]=e;while l<#D do local l=f()if c[l]then n=c[l]else n=e..a(e,1,1)end;c[o]=e..a(n,1,1)d[#d+1],e,o=n,n,o+1 end;return table.concat(d)end;local C=H('23722D27527622D23I27624C22D24T24Q26X27624822927D25622927524527L22D26727O24721927D26T21922D22L27N22L27P27R1X27U1X27X23P22D21X22D25Z27623L22928925Z27O24121X23H22D25728922D24721P27U21P27X24922H28924V22H27523X22D23922D27027623X22528925W22527523T22928K27027O23T22129822127524D22L28926O28022D24129K28O29T24529A22D25629X2471T27U1T27X24527X22D23M2762471H27U1H2A527O23R27O27N27527Q27524722X27U22X28628828A27627N2922AL28O22P27U22P28T28V22D28X27523L29129328C21T29821T29L29N22D29P27M2BD22D23R2BJ24723927U29222L24929Q26629Q2AJ22D27127R26L22A22D26T26L24Q22A2472692C126T2692C524725H2C925H2CC21P2C921P2CC2C82C22CB2C623T2C923T2CC2412C92412CC2712C92712C522F22E2772D422D24L22Y2D52D92771L2D422K2AU27O26V27R21T27U2BD22L24D27624J27629M28025129Q29M2892DT2BE29A2DX22D29M2752BU27M27O2BY2AM24H2C924H2D127O22D22F2ED1R21M1Y22F28Y27521L21C21G21D21C2132121X21G1X21222F22B2761O21M21N21C2182EY2761321G21L1W21C22C27722J2DQ2A724I2AA23H27U28K22L27B27D27227G27I24Q26U27O28U2DW2EL28U29A24G2EL23K21X2FP28N29029A2492952BJ23P2BJ29628023P29X23X29I22D23P29T24921X28024H28N2BW2E728O23P2C923P2C522E29Q2DA21T1L22F22827621E21G21K21C22F22M276162EU2131X2ER1I1W21O22F2H01621C1X1M21M2132HA21W2HD21C21N21D2EH1X21O21F21O21I2EV21O2F22F62751121O1X2EN2H42761121C2191X22F2DE2751H1W2132I62F22D42BJ29R2762632AA1L27U2DC2FN27C2FT2DQ22L2802592DU2BF2562J92DZ2J929224G29Q2872AM28C27O27K29L2GO22D2GQ2E52752GT2FO2J42BE2DS2J92DW2JC22D2E029M2JF2JH27623R2DQ22H2GP2EL2GS27R23X2C923X2D12H52752IF2752H72H922F21Z2761721C21121L2I42EV21C21D2HE2HS21G21E2HA2H02I02I421C2EX22I2HW2HY102122ER2L521I2HA2KI22D1J21O2HT2IT2762412IW2AA2AO24Q26T2AQ2DM2DO2J528025Y2DU2FH2AA22T27U22T27X2402J32FQ27524C2FS2FU2BE2JZ2DY22D2JG27523O2G424Q27228N2B72892G92B62GB2GD2LX28Z2252LZ29X23L2252M62GG2JN2GP2GR2E627R24D2C924D2CC2NA2C22NC22A22F2C12KJ2NJ22D1I2HT2HX22S2KK22D2KM2HA2HC2752HE21G2HG2HI2HK2HM2HW2HQ2HS2HA21V2761M21P2EV1O21G21Q21C162182ET21C21K1O2L72122L12LH2IG2II2IK2EZ2752HR21L2HS2FD27623F2762M827D24K2LO2292802JM22D24C22L27J2K02JB29L2JL28H2A726Q2LO2762732P12MM25628N2402DJ24Q2562BJ2DN2752562J52M62K222L23127C2J92PX29Q2LP2922PY2AM28Q2LT28S27Y2LQ2AM21D27U21D27X23W2BO2FT29222D2962A425129X23S2MM26U28N2512BJ2BL28Z2K92JP2EL2902752DP27524121T2M62572BM2A22LT2A422L2QM27D26U2QP2QR2K12QU2QW2QY2R02GD2R324H2EL2LP2892582M32M52M72RQ2MB2J326U2J5152K129Q24823D2FP23D2MK2S32GK28N26M28N24D2B32502RW28E22D25Y28H2BT2BV2N82AM2NE26T2NG24726P2C926P2CC2452C92452CC25X2C925X2C522C2EL2EE2LI21K2EV21P2HB2762IQ2HY21M21K2LD2KX2D227621M2EX2LI2I12KN2H02KT21G2182ER2EX2OT22D21121G2LL2EX2NL152NY2HX2IK2TE1I2HP2O921O21L21D2HT21N2I922D2EU21J2IE2NL21O21N2LD2HG2NI2TL21G2TN21K2D92D72OY2752KP2R92MW2P92M92762MS2BK2J529A23U2SA2FS27228H2RU2EL2402PB24Q23N2Q722929A2P82412292Q928H29D29Y2W02M624G2FV2K627623P27O24J28H2JO2JQ2IV2R727A2212FP29T2412J62JP2SU2JS27O22C2H022F2FF2751P21M2EP2UV21E239162OW1X2QP2D422L2H32LI2NT2KO2KQ2KS2KU2I52HH2KY1X2L02L222F2HV2WV2WX2KY21G1Z21C2KR2102FB2ET2EX2TE2XT2XV1X2WW2EP22F22G2761S21N1Z21M2OE2HO2132XR2132IL2HD1W21I2LG21221223822F2772L92752P22VR2P52P72W02892VW2VU2W22R92VY2MI2W62752K72752JI22D2R829R2WD28N2VX2R727O24C2PS2722BJ2VE2Z62E122L2VH2SA2252FP29X2412VN2JR2BX2WQ2NL2NR2XA2V822D2KR2KT2KV2XG2KZ2IQ2XK2XM22D2Y22XP2XR2XZ2L72EW2EK2XC2XU310H162XQ2HA2Y52752Y72Y92YB2ER2YE22F2242HD2X32X1310O21D2392Y72391121P21C2X12X32332392UZ2752NN21C2HX22V2YO2762IM22D2442S52AU2A7251311Q2DW311Q2DZ311Q2JF2FG2WG27M2EL26A2KB2762552DF2WP2762LI31002H82HA310231042XE2KW2XH2XJ2HU276310D310N310F21C310L2XW2WT2O82KU2UE2OC218310D2Y42Y62Y82YA2OF310V2ER2V622D2202P12J326I2YU2Z02P92VQ2PE22D24822H27J2FY22H292259313L28K256313L2M6313O27528U2Q3313R313V22H2DC2512EL2DV22D2502J92QS2SA2FK2MN28K29R2SM2EL24C313J2VR314322L2Q92J91D29Y2J921H314O2BE28S2Q12112MI2K52JJ2B62PG2N52JP2SK2VA2482LS2722AQ2GK2W7313Z29223U2EL23O2IZ2MN2DC2E12ZV22D2KC27522C310B2UP2EQ21J1W21E2TK2KL2HP1W2111Z2F92FB2O2315W2EW2HX1Z312B2TY2761521L2U12U3310J2XN2I521L316B316D2YF22N316A316C2U22132HJ2HL2TE312M310O1I101S22F2YQ310C2XO312N21C1M312U21N2IK311M2ON2XR2X221M3178276317A21C2UC2YL22F28N22D316C2122XU2UV2LG2EN1X2IQ2EX317L1M2IP2UN1X3173317C2IK2ED2HO2IK2NL310S31322XB2NW31102O92V12L231131121M311C311E2NM2NO21N22V22C311K2D421A311Q3120315L2QG28O24D24S2LT24D2WR311O2RK2DF28026E27O2442VQ2692BV22D2VV2PN27J2ZD2W12YY2M62YY2Q324R2ZG2QN2562QP29M2A4313G29M2S8319U22L314N319X2YX314P22D25U2J9313X2SA2PO28N28U313Q313S29Y313L2Q331422MH23K2J928S319X314V313G2452B3313Y311N2FS25V31982MM24C2GR22D26529Y27A2FS2P82493150315L21X2VV2PQ315G256315I2442LS25V315824529Q24J319C25H22D26V2AA1H318Z26T1H2WR2BW2WB27M22D25P2MI27A315G253315I31AO2P72KB2WA2AI2C231BZ2MB2ZR24Q2N12MH313G31B42PX2FV22H27131AD313Z26D31CM22D28U26L2K12EL2W927526J27O23P21X31CL2PP2Z721X31CO31D22SH2A631D628D31CW27O23L21T31D12BJ31DD31D531DG21T2DN2PU2JN28925028N24831CC25T29X28U28731AQ23O21L27J21L31D3311S31D92EL24E31CU2JA29Q23K31DZ2PT31E122D31DD31E32GD28N24E2MP31E827523W31EB25631ED29631E329X23T2BJ24J2GD29Q25X29Q2G928923Z2VG22D24Z2BV315K24726X27U27F27Y31BI319C25931BM2AA26P27U26P2AF2ZF31BW26T31CA2P931DS29X29M2VV2SA31BA315I31CR31CP315F27D25T315I31CZ31D828N23K31FX2MT31DL2PV21X31DO31DQ31FS313Z31DW315E31EO31ED31CZ31E32MP31E531E731A127531EA31E02MT31EG28Z31EI31EK31GR22D31EN31GU2QQ22531ES29B31EV31EX27531EZ313V2AS31F32MH31F631212KA2AM2AZ2LT2B127Y31C731FO31FQ24C31CC24Q31FT2ZO314R313H2RF2562A422D23O31HY31I023K31I32JN31HA31AX2802PJ2ZW2GT2472GV2C22GX2C61P2C91P2CC2252EZ26T22524R2C621T31IO21T31IR24721X31IO21X31IR22D2232762NR1Y2U831832V02F52ED172U12EF2762F32EJ316M2751Y2HS21Q2122U72LG318K1M312C2IQ31JQ1J2IQ2KN318Q21131682L3316N316K2XX312L21M316H316J316P2YG311F2HP2F11W2LD31JE27521P2IC2NR1W21N2IC2D52452132X82762U72UY311M2112TU2IC2I72UO2WU2LJ2UV21D2UC2HG1Q21N31JC2182DA2EE2NL2F12XR318H22F21S2O31521321O2TH21321831L52HQ31JV312C2NR2OC2UV31KA22D1531KX2I12I8318Q1D22F318Q1C31M52761F318K1K21N21E2EN2TV2762TH1X2TJ2ED2IQ2QK2D52D72U522D25S318T31FH2AM24531BQ2452WR2LP318U2VX28024A2AI2P62812AM26931BQ2692WR2VP2FP2Q727623W2AA26X31BQ26X31MZ2VA31N222D31N42V931EM2AA26T31BQ26T31BT319D31MU28O25L31BQ25L31MZ31HO315L2SP2DH2AM25D31BQ25D31NC2MM2MO2Z131EM2SS2R72Q72RB22D26H2BM25T31BQ25T31O431FN31O629231O828O21531BQ21531NC2VQ2722VT31OH2R931FE2R921T2Q331ON2AM21L31BQ21L31NX2DC31BN2QB31BQ21P31MZ2EL24J2SO31N331N52802AX2471931BQ1931P131NE2R92EL23W2EL2471131BQ1131PM2R731PP31NP2VM31EM31Q31T31BQ1T31NX2A431PI28O31BP2LT31BS22L2402SC2FT2SE29R229314Q29C2MB31HK2562B12ZN31AM2J927W319X25X31HW2482AC2FT2AE31CQ22H31BL313U31RD31BY31AQ28U31FP2G1313V2BF3146313Z31CL25U313L31R731DX31QZ31R131CZ31AM28N31CZ31R531S021X31R725131A9313M22D23K313L31D5313L31CS31AQ2ZU2YX2VO314A25V314C24031HK24C31R12VX31DW27O248314A256314C31CZ2PX2ZD31B729Y28N24C2QI2PT31MN24021H27D25V314Q22D31T727D26L31TB2VX2902P824821127J314V314D31SH31NR22D2IX2AM26H27U26H2M731RA26U31RC2VX31FG24L31SS27T2PT27W31TO31CP2VX24T22D2592W022D22C2YY22L22C2W527524831T824Q25331TG2R331AQ24725P27U31BY31QP31UN26U31TG22929031U331UL26527J31AZ31U831SF318W24725T27U25T2M731UY31V022522C2512W031V231SS31TL2PT31TN31SG31U931VA31EB26T31E131QP31TY31U022931U231U427J31U731VR31SF27I31UC31UE31UG2W031UI31UK313H31VG313Z31VI31AG314D31HI31O6312828O21H31IO21H31IW1P31IO1P31IW2552C92552CC2592C92592CC25P31IO25P31IW1X31IO1X31IW2CQ2C22CS2C62KE2C22KG2C623L2C923L2CC26L31IO26L31IW26P31IO26P31IW2SX2SZ2CU2C22CW2C62T52C22T72C621H2C921H31XN2C92C42C62CM2CA2CC26D2C926D2TC23531J4318Q2132D525X13315I2D931M827521F2V422Y2NR1R31LT310Q22D2F12EQ311C2EH2132TH21L315V31Z221M31Z431162UK2IK318Q31ZG27621031KG22D2IQ31JA2KQ31JD2ED31JG22F31JI22D31JK21331JM31JO2HA2NL31JR2H931JT320131LS31JX31KS31K0316331LY316O316E316T31K62F931K82ER31LX2UH1X31KD31KF2ED31KI2IK2LI31KL31KN2D431KP2H32U521121O21C31JP31KV31M031KZ312S2752LK2HY31LQ31L731L931ZL1S2121K2UP31Z321C31Z92NV2NM2HP2YC1Z2L6318A31032XD31062KX31082OO316F22D2Y72HH2IQ21I31M12UO310B1H310H21321M2182HE2132YI1X2IP2NU2762LK2HT321N320I2LI31LQ318K31L52UE22831LI31OG22D26C2PH31NS2YR311P2S427D24S31MT2ZA31BU2AI31P7315L31PN2KB28N24J2GR31H831P62GP31NF2DS2P528931WD27H32312AI323B2GR323729W2R729X31AO31Q92ZW31BV31WJ2R431IC2WQ2D32KJ2U531JN21G1Y2UO2H01U2F41H2EI324927621I2F22F332222NL22D3243318V27526C31MT31NH32412D9313622O3233311Q2802FI31MV27U2A631HN324P31C8322X311N2J331FL31BW2P727A313F31F731TP318V319E31BW2Q9311Q28K24G2DQ31O531DR27D31CE31RD313X31E72Q631D32DC31D631CZ319T31S32S831S62B629Q26J29Q31DD325Y31DJ319T31DJ319Z31H922D32672MX325Y2GH225319T326K314Q29Z313V31GD314528N23O31GG2SH31AK31G723127J2Q331EE21T31R52RT27531E6326531H023W326Z2PT327129631R531ET31GY28Z31EL22D23S327B256327129H31R529T2QZ2R72BJ23T31EY2K531F22VD31S824Z31CU29X24J323U21T2GP2BJ244315G26U315I24031RA27231RC31BH323G31BW324P324R31272ZX2E82EA2C522D31023209321K320K321N321P312E321S2XF321U2XI31092HA3170316J2LG322B322D322F22F2O72OU31761X32962KX1N2FA2KS31LL317731ZA322I31332YD320I320531JW2HA31ZR21C2EJ2LI31LV2UO311M31LZ21231KY31M227631M431M631YT22D31MA2NL31MC31ME2L72NR31MI31MK2V021D31J531J722D25R25O32AP32AP24C22Y324L311O328J2Z931MT31TS2GU24V2LT23P2HM323532AW31FG325B31B031BW28931QK24724532B126T24532B4323R31NY311S325J2D627A2PS31DM3238325G2A627532AZ24727132BF27132B431O532BT2K127624431CC25V323U2VD32C42WI24Q25V29T32C52RK32C82A4262311Q319W325O31CI2BE319Z31A22E031AO28924N312431AK2P131CC326P31QU31AM2W0314T2W027W26131C8325C275244319P2QP328927J31C331AY32B929R29Q313G2VX29A31UD2Z131BL2YY31BY31VK31CB31G231HU319T2SA23527J31YK31RD31AZ31DX1527D26G2S831S932DB31EM32CY326K31AM326K314T326K27W2522N031OL32BQ23W32E42PT32E72GN2YX2SK31HV319X326O31F0326631F022H2VV313L32DP313L31RI314J29A31AI2BE31D12J931D5325F31CP24031T423O31MN31SQ313D2VE2QA2GK32DJ2JH31T032642ZB29224D31DQ2M42PT2M62P931UN25631TB2401927J192YR32EB2Z1319T2W0311S323L32FV26D32FX31W52VO31GK2YR2832PT2852P931U523N31U729M31UB319X31UF319X31UI31A022C25B2JE31HW23O31U525631U731CZ31VI325Z21X23922C25931S331B831D328K32HC32HF31UG31S322T31VJ2SK314E2BE23131VJ2Q72BF24O2VT32E22YW313D24D2291L31WA29L31VA1D31BQ1D2WR32HZ32I132DS313H31CC23N31DU22H31QH31RJ22H1531UG313S32IL2MH2M032I332BU2LR31BQ22X2WR24C32CB26U2GM32I022C31QX31I132G72SH32IH326232HJ31D332HL31D628U29226Y313L21H32IN2E126X2VV27F28O22531BQ31VI2FN32IX32IZ32JG32IB24D32JJ2GK32JL32IW2RK29T325Q2FT32IF21132HB32IM31AQ24D26929A26N2692MB32CB25632K124527J32BT28U32E2315E24131G231N031CZ25H32J831S932GI327225P31UG31DJ31NW24A2GB31RO31E932KO24Q25T31N031DD32KS32EL32KV29631AK326K32L02N032L331EM32L532L72MX32LA2QU32KV29H27131UG29T29H32L029T23X327W31HC327Y29L26H29A23P31TW2P932KF32K132E92E129629Y2R632JZ2PT29T24D23T31FP25623T32KE32K029L251319124W32BL32ME32KG31RN325W31RD32F0313Z31AB29L25932M332B732HZ325529L31Q13143323932IQ31TR2AA32G32LT32G52FN2552RK31262E12SP24627O2PW32NC2AM32EN26T2S82FN31U526U32GQ22L25122C24L29Q23O21527J21532N7325G29M25932HB2J924L31UG2J924T31UJ32O331CC26U29X326032HB31S32EE31D623K32CB25332MG2JO31D62BN2BP31FM328N28O2E92C22EB2C624L2C924L2CC31WW2C231WY2C624X31IO24X31IW25131IO25131IW25931IO25931XB2CR2CC31XG26T31XI31VB2C925T328Q1K31J42NL112NY2L2320Q27631YZ2KN2TE1221M31ZC2HO3222321431ZU318D32213220316Z322H31L3322I2ET2UJ2UL2NR318H21M31Z92LI112NO2NR1H2EV21G318K1T21C21O21E21P31862O832062HA21Y31KS21M2UV1X318H1Q21J21R3210318031ZZ31ZL1T31KJ31JY32A931M72LI1621O21B21C2DA2H331JB31ZQ31JF329W2NR32R42Y332A132132IS2DA31KK31KM32GM2D421O31KR27531KT31ZI2751A31ZT27631ZW31ZY21G31JP31L1321731L42NY1X321A32S327513321022F2IU2XR32222HS32RI32RK32RM1632RO2H02HT317P2HT3209328Y31053290312I3293312Z275152IP21I2OA2ON2US32AF2U532QT21L2EX311M1K21L21L32TY2EX2H0320H2ES321X2WW31K7320C2YF311M32TY32Q82HA2U52F8329J31LX1K2193174317N2EX31Z132TC321021O2F932QX311H2UA316A2UD329M32QH32UQ32UH32SO31KH2IC31LZ32RG32UZ2IN2H8321W31ZU2LD32QF2F21S32AK324N1S1H31ZA21F32SS21C32T232T72YF2H032VS329222U32AG2TI2UP21F2OW2HS32A9314N2D525131YX318Q32AB276311832R632R831LX324H32QU21D324E32TO22D21I1W1X2I131MD317521G317J2ED32UN2OP2752XI32QU32AL31KJ328U321M310V321P2TE321Z2ER32SS3223321X2KR21K317D317H32282192F5321K329O322K32UE2O832WO1G2XR31772ED22D321K32C2323431VA2PS26T2DL32B5324O32NQ28O314H26T28Y2QF328K2ZW23W31N531WM24732P326T32P524732P72C232P9324L2EE27722631MT26F32C42J332FL24431B227O31ND2PT2VT2VV2W02VZ31P631HA319C29231HE28O327B26T2Q322L23L28J2K12MP31OL327S2QQ2VA24531OL25S2BM314A26T2FM31DA322U27O23K2J325V311T22D2RZ2AM32CB26T29K22L24432JR322Y319427M2WM24H29Q31932JV315L2ST324T28O32PT32PV31XK2C231XM31YC2C92CO2A72KJ32A132282112ER1X2F5320X2U832U931ZU32SQ324631JP321K31LK21M330Y2HG320Z31K431KB2HQ31KI2UL2UN2UP1Q3248320I32UJ316132UI31KS329L1X313622V31MT32C227N2YX325632Y424726T27U31FP32542Z93321325N330C31DO31P4327K2ZG32YX31UL325E31WG31CP32JC332K32FN32I332Z82AA31U527V27X23T22528K2QT29B2212Q0327R32C12212DC25S29T28P28R27X24129X23R31FT2AS330231WN27U314Q32JQ32MN2ZN2DC2J82BE32DW2BE3263314M314W2Z727O24M32ZW32FV25632FX31DD31AK2MV31AM295225327F29B2U632DH29H31R7259327R334932FL25123931AZ334H2B628N25X315331IA2AA2QN26T2BQ31BH31OJ2YR2RF26X31I024C1P27J1P31HH324031WL32P124724X2C924X2CC25D2C925D2CC2CE2C22CG2C61X2C91X2CC33592C2335B2C12IU320J31KC21M31KE331R32SJ33132EX331531JL3317322G32TP330X330Z331E321X320K32QQ2UM2HX331L331N2YF331P32UL2X931LT32TJ312G31073292321W32RD3366331B330Z31LP32TR32TT2WZ22F21U312T320Z31771G2192U72HY2KX331A331C3310329N2LL329P310W329S31LT329V2EJ2ED32RQ32SL22D32A727631M732WA22F327122D1C335W23932WJ21N2362X42OA2XR2392V121823921133672HG21823D239324632482392IC2391Y2IC21P239238315S21821F2NO316C2HY2UP329I2FB22V324N22D22U31MT26032YT27J32C4332G318V2YX311V32DH2A6325K31BW332W2P527525A32D7339A22D319K311Q313X2AU32LI32Y323Y33932PT311Q325Y339O2P7319C31N12PK2Z1319W2AI2352P732E032C232FL240333Y32FX24523D2P731QT24431HK26U31SP2762642P532D132Z531HW339B32DH2AB2AD27X32ZF27W24G28N23S315G272315I23L32HO31EE31VA31HK26T31HM23P1H31BL26H31RC32ZF32DR2ZD21T2S824X32ZQ2FL2861531CL26H32E723K1D2RK32W631DD31CS32ZK23W31UN27231TB23L339P23P1D28K33C532BA33012AA32Y632Y8315M28O32PB26T32PD24731X02C231X232PE335A2CC2T12C22T32C1310Y2KJ318Q21Q32TI2XC32TK312H321V2XK31Z132TQ21332TS32WT21G32TV2EX321K32983222322F2EX2IU338V329K32RG33DD322E2HT2U42F031ZC321I2UP31752F231K12IN32273229321X31LK31LM2NY31LP32SX31LU2U82UO2UB32V12IK336231ZX33642UP2U72U9336A2UI331I336D2UO2ED321D321F322M33E4321K31JR21N2OV2KU2EQ2D331YY31Z02IG2TM32462UN21I31LA21F33F633F724Z31YX321K1N31LL21I21Q2OV32W4337I32V622D32262KS23933DI22F31363129324X330A2MN31B12FP2AI315K33CE32YO2KJ317L310S2F921O31132HR21K2TH338T31JB2KX22C2ED2JU323232AW2ZA2E222D2E433562GT318Q31UF27731QT2WF22D26M339F22D24X27R31V52LT31AZ31QP2MD32NO2AS32BL32DI332C2Z129A33GX2AM332R27W33H22RK33H4311U31P633H831QU28926527R2QC26T2QE24033H332I333HI33H731452BV2JO26728N24733BT2LT314N22L31N032AX2MB2PS26X2BJ32K232CZ2ZU31WK33CE2ZE33282Z128932NN31TQ32BV32ZB32ZD2WL334V2P933HT31CQ33H52J532Z62V9334P2AM32DY2LT31YK33I62VA32ME26X32K132J433IF335533CE32BW2CZ33CP2T22CC26T2C926T31YF31YH2CC330O26T330Q2472512C92512TC2H031LB31LX2XI21N1W21K21J2ER31YW31ZL31KM31ED2D42252H331Z133G333EV311A317D31ZL2KR32AK336R337U337W2I5337Z2X42OW2EP23921N2EI338Y23B33A033GT33GV33HB28O33HP33HR33IU2DN33HV2WL33HK32DL33GW27R33I326T33I533HS33HG33HU32C333HJ33HX27M33HZ33I12RF26T2RH33I72ZA2ZH27D33IB31UL33JA33FY2SV31TC33L533IW33LK31RP335631OW24733J226T33J431BH31PA332D323Y2MC33LH33IV33HV33GJ31HB2IV33J033GM27R31YD2CO24731YG2C231YI31Y12T633JO31XL33JW31LB31J4311M33K033K233K431YN31MO31YX31ZR2UK2D933KB32WL33KE33G533KG31J827533KJ2V426I33GO31ZU33I733GU2ZW33M732XZ32Y133M02LP323I31TQ324S31QU31OT31NO3197330K335833CO22A318P33N131LB2D733GO22S32AY2AA25L27U25L333927633NQ33O033LB31O927U25D2M733IU2PA2RK31F032BK33IX22D33ML2RX22D32Z92AV31BM27R32O52LT32O731QP2VQ26U2M1311W33M432Z131AY27R31VU31VW32YZ33PB32I333PD33HW33M532ZN31PS2BM32NE26T32NG33LS27A31CC32JW313H32M731Q033IG33NV31O52VX33IL322W33222LS2LU3339323733OT2FT33OV33PN33MK323H22D31IB28O32ZR2FM2ZU323W2P92QN26X2QP24833Q1323Z2RV33O42CY2C22D02C633CQ26T33CS332333JK2CC25L2C925L2CC26X2C926X2CC31IF26T31IH24731XC26T31XE22C311M33JY2TW218330Y33JZ2F233N533K533N8318K33K133K333RY33KA33KC3130316033KF318233KI2TR33KL337V1W23933KO3380338D310O33KT2EI32XT23C339S31CS32B832FL33QE31AN31AP3124324Z2AA26127U26127X244314H26U312429233H62PR2FP2BJ2JU2S6312131DO2KB29731OM29X330G33TC339722D26K32CA27J32CE33QW2A6339V32AW32BV33PT32NG32XW2P133J226X32E024C31SU314C31C433JC31O52YS33SP31QU326O31SS31RW31Q0325G2VX314V32IB33AC2GF33AF3309315L23927W26H2QP24733QN2A52VA240315G26X315I24C31RA256328G33LZ31OT33AC33BC33UM333K24523931BY33UR33O42T92C22TB2C633RI33RK33CG32PD22D335T336K2KN317032SV32QO331H2UK32AK2NL32RW2EN329M311M2Y72ET2V131JP33FI31ZU1N32QC21L32UK31622LI32V52NL32A333W02OS2F7331Q317K2HD2UK2UE239321H2391Q33F633SA33VX32V0317Z31ZA328V32X531JP336M321T32TM321W29T33FK21C32VP1W21L331H2EV2OG2OI21K318D1X32XQ2UE21233EX317033VZ33WP33WR31L7318K311G311I22C22E33O8276317033TJ33KY3234314K33LL28O334R2BQ32ZU323Y32YC33FW29B2EL23R2R52252Q323U2QU31P2326833FY333E2AA2FS26T27L332731ID33VM33RH2GW328Q324N33EE336032A92YN2NL33XU318N33GO22731MT26B31393394330C339X32D9339632YZ32DK2YZ32DN31QU32Z431QU32HG2W3313D2VX2Q324T31OI33AP2B832FL33UT33BM32ZE21X2DC33AX327833Y523W2VQ2VS2MX319W326K319Z326N29Y32EE2RO2B62352N333A633YO2AM33YQ33YS33JD33YV2C631XW328Q31L1329B2F02EP31191N338633W931ZX311721C1T32SS2OE336H31KS33Z133VQ312D33CZ336N3291312J32WL33D533D732TU31MF31ZA33DL33DF32T427633DI338833DK317T329933DN33EH33VV331J336E2U533DT2F3322O33E9320A32U8331F317132UC316K2XL31K2316P341R331T33DB341Q329J341S31772123136322S32Y324F33KY32FL33II2YY32CN318V2GF33FS32Y333H632C232BV33M933MB33U82FS26X2ZG332I323831WK24733NT32P0323Y240314H272314F33YL335433QY33MO2AM335P26T335R32YJ32P8328Q2ED32WL1721M2US21M21932UB2OE32AK2H0329I31K6344333XT318M311J31ZU1021N343Z33FE2TR27729X32Y332BV31RA31BR33OJ27533OL33II33L12AN2AP33OJ33NX33HL2Z333PE2E529A33M731QR26T2SE33J5318U31AW33LV31DQ32BP2BJ33JB343M2473304330633PW32DT2MN29X2482ZI345C33V53357343P343R33JT2C233JV2CP32PR2C633CK26T33CM22C32YN33O927633OB2U52OW1Y320I2ED32WI22F1J2OY22S23F23G2393374321032WO311934132X121I31LL2112X41N33X92O5239310D2WZ23F22N22V346H311421N3116311823933XI311633RT3119338N212347022U3473310D347434763119318223912338K33WQ33DU21822N347G346I11347B338M21D32XE2F3338623H31821R33RX21323G22N22P34732KR33KR311333SD21333NH347022O3473347W330Y338M21J2122391K2H72UV311621M239344D344633FE239348F31112XR347022R34731231J72391J2HS3490335W348G2F13481348U2392IO330Y347022Q347331L72LG239218349D23934802F4338G348P21D315Y2KX33WS2YE1Y31LL2HH33842HY2392HT348D349Q349S317G23F23923H349C33SE338J32U32391R1Q112392OW2LD338G2HH2TP346I22N2313473331A2I31X23822N22K3449311H33Z621X346F34731S21F34AB33SE33823119348D34A0349R2IP23921J32WT311931MJ2HX23931KL34AA338H2V1311331J6338H346G22O349T2UV346M347E347134BA347534BP33SF2OA2X43310348M238348D212311022X348F3182318H349J21C22Z347F34AY316C349P34BJ348G34BM34AR33851Y31182HT34BD338I2V11X34CP347V347X238347Z347R3470348A346I347I34CT338D3110348T34C82OL33K122Z310D348I34963498349A348G3491349F349V318H349I349Z349L348B321I2XO34AE34AW34AY322834B034B2313631Z132C225433ZB339T2MB339633U631AQ319933OU2YR33T32SO2JF31SS345N333U32N62ZB31I833C933P231N633O3343N2752U522F2792NW2YI2YK21221F33XB21L3386310D34A01021L32223228337Z348P1O31KE2I432U8311D33Z4344A31ZA34CF317T336Y341B320A1T32WP211320K22F33KX31KH34FY21223323E23E2U72OI21J2UV23F324H21K23E2IQ1Y23E21C22V1R1722U34FK1Y3136310233TY32AW24B328L33GH33OE33J127U343431OT2YS32JL33IT27J33FX343B343D3327343F343K2P9343H2KB345P31ID345R2CC32YK26T32YM22D343V2IU1P1122V311C1I32WW348Q32QF31602XG34B5311I340V2WV34HR34HT34HV322632XA21O34HY2TR33GB32AK277311M34GT31TC2VC34EF33YC343A33JC33UW34HC314G2FP34HF33Q331WM34HN31J423A2762X134F52OM34F832U334FB2XO34A01P21O2ET33WS34BC324D2HS32VB318L34B6311J2NL34JB21322S22N2NR33DI313634IF33UW34II34H52MN34H734IM318U32YZ31P32MB34HE343L31C634IT343V32E02911634IZ2YL34J134FA346X34J4311334J634J833WT347N2KX2L234JD33Z5311J24A2HD2EU2LL34JK2NX2LL22V22N1234KJ21C34JK34KX21D2L222S1A31172UV34KW34KY34KV34L12L222V34L531KI21N34L834L221C22U34LH2L222U34LE34L734LB21C22P34LL34LR34LO34LG34LQ22O34LV34LT22O34LT22R34LZ34LQ22R34LT22Q34M434KY22Q34LT23134M934LI23134LT23034ME2L223034LT22S22T34MJ34KZ22T34JL2LI34JN34IE342Y2YS2MA34JS2VL34K134GX2YR34IO34K034IL343M33FZ34K434IX34K72YJ34J034F934J3340X34KE34J72X434KH1J32W332U934FP34JF22F10322H34NM22S1P32Q421C22N34NL32QC34JJ34NY34NT1631Z821L34O234O022S2IB21N347S34NZ2HS22V34NV2132L234O734OE34OJ21322V34O42F934O634OD34OM34OA347S34JM329J34JO34MW34JR33MG34JT34N132Y32ZA34JX29Q34IP2MN34IR33U734K334IV34NA34K834F734NE34KC34NG346X34NI34J9347N34OP34KL34FQ23A2OY349732U334ON21P2HS1X34KW34OP34PU34PW34L634LW34PZ34PY34PT34Q234Q521L22V32Q332U334Q834QA34OP34Q734PS34Q91634PV2HG2HR2132F321334QD34QM34QO34QD34QB21L34QR2ER34Q822S34QJ34PW34QY34R02HG34QG34OP34L034R634R532U334O934OP34QY34QU34R921L34QZ34QK2O434QN34QX34QH22S34QW34QP34RM34QU34RO34Q834LK34QH22U34RF34RW34RC34RV34RE34LF34RT34RS34S034OP34RS34OV2FB31363158325827D2M82YR339633Q633ZQ2YZ2VW32LY318V332P2AM26L27U31CS340033T632ZI332W2MV318U32ZN2M632ZP2AM27127U31CL32ZE31O523W33PY2QU33QW33B334IS32P12A62RY2AA25H27U31BL32Y922D24334ED34SE34JS2P83144319X31FV2BE33IY2IV34SN28O32GK26T28522L23X21T33T62GD332V340G32ZL33SW2QB333827Y2RS2V934TF2AM31UN26T333I33II33MF33QS33QU33J225632E0345D2RW31NN22932632W0314N31WD2G9314Q32B731RD31AK2RW315K240327B23N32712VX31R52W031RU2W032HW32DO344Y33IV2Z52W822D34V12W821X326X2R92ZC33O421D2C921D2CC31Y62C231Y82C622P2C922P335C335E335G2CF2CC2192C9219328Q33KL33Z033EG33EB32SR3318316A33892I132AF2UG33EI33VW331K2U5331M34QO2UP33WC2HA33CU33KM33SE32U22HT2EP3386341533831K346X34BV2YN34IC2UP32R42HT33Z327633Z52NQ32QH2OA32QJ329R33DP31LF21M32WL1Q31LL21E2UV162XU2UD31LX32A232A42UO34FV33X332TL33D232RC34WK336T338A341I336X31MD22F344J31753372329F336W34BN31L434WL32XJ32QM322J31342YF33FQ275310B330G325A342W32DH33SS32FC31AQ2A6325I34SM339J339E31BW2W4311Z32Y332HZ332031UL33UN31CV33IJ2SH314131A9339P23O33J227233A632862JP2BJ33FZ31ZU328T34XG32X42YD328X341D33X434Y532WL32QX2V12ON32VH2UW32QL329D34YG318H32XM318K324D21N2KW33NE3131310U329Q32XN32WY33RW33S22YF2EG2EI33K622231MT34EC33FT33SR34EG31UR2EL2442SG2YS33GG3356323Y334U2Z92BV31HV33M5343G31T9350Z2VQ25V330F33PA339Y332233IP33UV34JW33IA33TA350X343B33UU34TK34P434T832MM32MF34P2323V2Z92VO2QN2722QP34P733T431UL34ZL33A634VS34EZ31IE33YX32P6343T2C134ZS321K34DU33862HO329M2U533DI311J2LI350D329U2761G213341832SJ316H31Z931Z1352I34DX330Y21D2YN329C22D162TO2HP34LF2X01I348V1234FH21E23F353H33WV2UP352T322833N72D4333332XT33NO2M22AM31CC31IP27X32NP2VE33IR2BK2M1318U33GJ32IP31CQ2AG32NO330D2WO345Q33O633GO3136350S31TQ24Y32C92PX2LO33SU33IN2AA33LD33I533I72VE2DN28024L27623O34392SL2Q931QE2A32QL34EM2MX33T631ET27R27O32ZK32BQ23X315K354R33CA2AM32FV26T2M62DM2W132IB313I2RK31AC31WI34ZE2AH31GS34EQ31RD31WK31CH34ZF23P29Q23R32683546313Z34TC31ID32YG32YI31Y232BG2CX33JF33O72ZZ2LI2I3338T2NL21E31MI32TS31ZL2341Y23I2UP2UR2UT2762UV2UX32SF27733OB2NL2HT32XE2XR22F34PQ32D92J32R634IH33ZC34TP354731H023O34N52SL28926S314J314L2BE313Q33OV354I2Z7276324Q31GS2FS23N31DC21T2VV31DJ319K31DJ313X31DJ314131DJ28023Q326B29Y31DJ319W31DG327J34U3314Q32ZK23L23D2M624P31QT327A32702B622P319K31R123W2LS256315831EU31RU327U332N32ZL34TX24722L24P2LT22L2P625523H31AZ24G314C24G2RF27231I025533B432NK332224T24U2LT24T2GZ2591P31FP26H335322D359431CL251314C24123D314Q24X31QT247255359I33CH359L1D31CS26H32W625431WF359R23D2DN25131QT24K2QC27228S359R339P25921H314N23P31TB29034UG2GU35A323P2GZ33YB2FT27O29628924L29X25032LC354K31H4311S332X327K32GK26U32GM32IB355V24X225354T23V29X24X32DY29Y32E035BM32GU32E031VK2YV27524X2A732FL25834EG333B35BL25T2S826831VE22D23T35B72QT34B832CZ2DT31H024W33SY2PT33T033GW23535AE32E025834TH24Q24U31BL359R332V31UG35BL35B724X25P32MJ31BY33GW1132HQ26W1127525835CG25635CI25923H31DL314C25435CO25635CR35B323H35CU275313O33TE35DM35CY31OM35D02591132I135D427525435D835CI25535AD29Y35AG35DG35CR24H35CT32CZ359D35DO359R35DQ24435D02551132IH35D532BN357L2JP27632FL24S34T22PT31CL22D24O35EQ26X35ES25W35EQ25635ES25S35EV35ES26431FA2PT32JL26122532JT29X31BL28K2VE25C34SP24Q24Q33SP25D1121931UG35EJ25O32KI2PT32BT25K32L525631N026S24D27J2PW25D326R31DP27525H26931CL24232KD22D35FG27J35FK35FM35FO27525O35FV31N025K23P33LV2JI26S23L27J2B722D35G231GE35G524935G82MS35GC2PT35GE35FN25635FP23T27J32ML22D25K25133LV32BL26S35H62PT35H835GU326S35G523X35G82R635H025635H235GG22D25O35EZ35ES25K25933LV32B726S32NI2PT32NK35HI35G422D25H24X35G835BW35GB35FH35HP27535FL35H335FP35HX2PT32B725K24H33LV24H27526S24T27J31UB35GT35G328N25H24L31CL248354T35GB343925O314H31AQ25K31A827M32E723R32E726S2PS24S34ZQ35C127526O31CC24S323U32W623R32W6323S2BK29X27032CB24S29V35JH315L32G52BK35JZ26W2QN24S2QP35JQ333C324P33J224S33A635JZ23R35JZ26932DY31VJ32E026928522F24G32GM26G314A24S33U528N23R323D2Z534ZQ327123R3271245315823R31BG315I23R31C331RC23R328G314C23R314C269315K35KF22L22F25135KI35KK35KM27526G31QR24S31QT24535KS28N35LD31WK35KF21X35LH35LJ2EE35LL22D26G32FV24S33AB33YE34K22BK2AI34UE315L35L135L32Z535L62Z5328G35JX35LU335526923922535LH2QP35KJ311D35M126G31HK24S31R124531R123R35MX2QP23R35K535JX24532FX23R32FX35MK343M35MM23H35MP27535MR35KL35KN327B24S35KZ35MZ35MX35N735N9315K2682LS24S31BG35JX26L23D35LX35AF27526L27W35KL31U71K315G24S31C332GM23R32GM35K6323U35KC35JZ26L315K26K31RA24S328G35MB2BW355Q35M235BC32GM31YR2VE2AE2802VE1S2RF24S31I024535OE2IN25T34B823P35C626H33B41K335124Q24S359Q35P12Z535JZ24531ED23R31ED24531MN23R31MN32M222C22C2GG2FD1K32EN24S32E735PF35K027M31TN23R31TN26H22135PR2GL35PU11323135EJ35ON2AI31U723R31U733UR35Q732HA22D1K33I324S35JP35EJ23R35QC35PJ35PL35AK23R35AK35PZ35KD27526H23535Q735R235QL32NE24S35PH35P2330I2Z529Q26H35DK35PS35DK35QL31UN24S31TB24532O72BK35RM35QY35JZ26H23D35Q735RS35QL31T424S31MN35RP35R032HL35PS32HL35QL2QC24S35QX359Q23R35PE35R926H22P35Q735SD35QL31EB24S35PL35SB32HQ35PS32HQ35QL31VO24S31TN35RZ31OM32IU35PS32IU35QL32GK24S35OB35NM27M35SB32I135PS32I135QL31U524S31U735SS33BD35Q731BS35QL33P624S35RO35SB31QH35PS31QH35QL25X323131R735JY35PG35R01P35Q735TU35QL31VC35PC35C635TB32IK35PS32IK35QL33GZ24S31V735OC35T235TS31OM31Q735PS31Q735QL35CG24S35CI35SS24531TB23R35RK29T23R29V35QQ35EJ35A835Q732I735QL35CO24S35CR35RL2Z535RM1G2FS26P27O1H35P429Y35C61O32KV1H35B735V831E335C635V826L22F25635VI25T35MS35VB25D323133OQ315L31I023R35P035TQ23R35TQ35VE31WK1H35JN32W61S21H318Z33C12FD1H354833O423H27L32ZS24P2C623535WF23535WH2BN35WF23935WM2512D326T25124U2C11C31J431ZU34S532U334ZT331G328W33X234ZY34Y4336P2XK33X7322633XA33XC33XI33XF34AT33XI33XK342L321Q310N2182OL2YL2OO310G2ET341H34YI341K32AF33DC341U33DE341W33DH342J331T341N341W2U5321H31Z934212OW34232TE33E031LN33E32UY329Y33E6342433WY34WH33ED331233EG34WO341Y33EK321C321E2NR322N33ER2V133EU33G521C33EX33WE33EZ2IA33F131KT2HX33F422D33F733F833FA341Q33FD33FF32QU33FH32S431JH27633FL21133FN32UL32U732UD342832UB320G32UD32WL2LD1X2H92EU356P2HA2TE2EN340X2ES35ZY33DO275352I34WV33WL2H01A1A31L32II335U320L335W31KF33W22UW2EU21N31JP32QW33WA31LX1N341631JO33CX31702XZ337D21234152HY2IE31ZU1J32WT329F34CR336531ZB31ZD2IB33XC31LX31JV311H34NV2HY33JY318Q2YN317W317Y2UE31812X3353J320135ZF21332VY2H0338Q2TO171I1N31YO21P31YR2771H362327622X2H334NO2NP31KO1A3626315L14362934XG344A31KO17362E25121J320W342I2FB33OD2D522T362E35Z8362P275352N2D91G362E25X21Q2H3311M1G317P2113532320A324H21N324J2IK321K344D312P2HK36392TR31ZU1K34HX312H321X1N32WO33K022S324D3248320A2HR363D32RM33FJ363R32WP2F222S1031JZ311M34CF361P2H035ZV34CG33KH364B2HP2US31623179310O364D32R927533WH2UE2NR21I21K21D2L82H634I921C364H33DJ35XJ324N348O2NR21D322E2UF31MH34FL21I2U031K9336K32UO31LX32WJ2HS2KU35XR331534KY365H33EA27632W234O0365L31LX31J632U3365Q2TE338O338Q311H338S33WW27534D93481363X34CA34HZ23J2HD346Q21O346S33WQ340X33FN3386337V2OW21K2UV348V31MC3113324B31Z72IC341331JV21M21E22D');local o=bit and bit.bxor or function(l,n)local e,o=1,0 while l>0 and n>0 do local a,c=l%2,n%2 if a~=c then o=o+e end l,n,e=(l-a)/2,(n-c)/2,e*2 end if l<n then l=n end while l>0 do local n=l%2 if n>0 then o=o+e end l,e=(l-n)/2,e*2 end return o end local function n(e,l,n)if n then local l=(e/2^(l-1))%2^((n-1)-(l-1)+1);return l-l%1;else local l=2^(l-1);return(e%(l+l)>=l)and 1 or 0;end;end;local l=1;local function e()local e,n,c,a=D(C,l,l+3);e=o(e,85)n=o(n,85)c=o(c,85)a=o(a,85)l=l+4;return(a*16777216)+(c*65536)+(n*256)+e;end;local function c()return e()*4294967296+e();end;local function d()local e=o(D(C,l,l),85);l=l+1;return e;end;local function H()local o=e();local l=e();local c=1;local o=(n(l,1,20)*(2^32))+o;local e=n(l,21,31);local l=((-1)^n(l,32));if(e==0)then if(o==0)then return l*0;else e=1;c=0;end;elseif(e==2047)then return(o==0)and(l*(1/0))or(l*(0/0));end;return i(l,e-1023)*(c+(o/(2^52)));end;local c=e;local function i(e)local n;if(not e)then e=c();if(e==0)then return;end;end;n=a(C,l,l+e-2);l=l+e-1;local e={}for l=1,#n do e[l]=L(o(D(a(n,l,l)),85))end return t(e);end;local l=e;local function Q()local D={};local l={};local L={};local f={};local c={};c[1]=D;c[2]=L;c[3]=l;c[7]=f;for e=1,e()do l[e-1]=Q();end;for d=1,e()do local c=o(e(),192);local e=o(e(),239);local o=n(c,1,2);local a=n(e,1,10);local l={};l[1]=a;l[5]=e;l[2]=n(c,3,10);if(o==0)then l[3]=n(c,11,19);l[4]=n(c,20,28);elseif(o==1)then l[3]=n(e,11,28);elseif(o==2)then l[3]=n(e,11,28)-131071;end;D[d]=l;end;c[6]=d();for n=1,e()do local e=d();local l;if(e==3)then l=(d()~=0);elseif(e==0)then l=H();elseif(e==2)then l=a(i(),1,-1);end;L[n-1]=l;end;c[5]=d();return c;end;local function L(...)local l={...};return l,#l end;local function i(l,C,D)local d=l[1];local a=l[2];local K=l[3];local c=l[6];return function(...)local e=1;local o=-1;local Q={};local H={...};local l=#H-1;local t={};local n={};for l=0,l do if(l>=c)then Q[l-c]=H[l+1];else n[l]=H[l+1];end;end;local l;local c;while true do l=d[e];c=l[1];if c<=55 then if c<=27 then if c<=13 then if c<=6 then if c<=2 then if c<=0 then local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];n[l[2]][a[l[3]]]=n[l[4]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];n[l[2]][a[l[3]]]=a[l[4]];elseif c>1 then local D=l[2];if D>o then o=D end;n[D]=C[l[3]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=a[l[3]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=a[l[3]];e=e+1;l=d[e];c=l[1];local d;local e=l[2];local a={};local c=0;local l=e+l[3]-1;for l=e+1,l do c=c+1;a[c]=n[l];end;d,l=L(n[e](f(a,1,l-e)));o=e-1;else if(n[l[3]]~=n[l[4]])then e=e+1;end;end;elseif c<=4 then if c>3 then local D=l[2];if D>o then o=D end;n[D]=C[l[3]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][n[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];local c=n[l[3]];n[e+1]=c;n[e]=c[a[l[4]]];if e+1>o then o=e+1 end;else local c=l[2];local o=o;local e={};local l=0;for o=c,o do l=l+1;e[l]=n[o];end;do return f(e,1,l)end;end;elseif c>5 then local o=l[2];local c=l[4];local l=o+2;local a={n[o](n[o+1],n[l])};for e=1,c do n[l+e]=a[e];end;local o=n[o+3];if o then n[l]=o else e=e+1;end;else local L=l[2];if L>o then o=L end;n[L]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local L=l[2];local f=n[l[3]];n[L+1]=f;n[L]=f[a[l[4]]];if L+1>o then o=L+1 end;e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c<=9 then if c<=7 then local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];elseif c>8 then local e=l[2];if e>o then o=e end;n[e]=n[l[3]]*n[l[4]];else local D=l[2];local t=n[l[3]];n[D+1]=t;n[D]=t[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local a=l[2];if a>o then o=a end;n[a]=C[l[3]];e=e+1;l=d[e];c=l[1];local d;local c=l[2];local D={};local e=0;local a=c+l[3]-1;for l=c+1,a do e=e+1;D[e]=n[l];end;d,a=L(n[c](f(D,1,a-c)));a=c+l[4]-2;e=0;for l=c,a do e=e+1;n[l]=d[e];end;o=a;end;elseif c<=11 then if c>10 then if(n[l[3]]~=a[l[4]])then e=e+1;end;else n[l[2]][a[l[3]]]=a[l[4]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=C[l[3]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c>12 then local C=l[2];if C>o then o=C end;n[C]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local d;local e=l[2];local a={};local c=0;local l=e+l[3]-1;for l=e+1,l do c=c+1;a[c]=n[l];end;d,l=L(n[e](f(a,1,l-e)));o=e-1;else local D=l[2];if D>o then o=D end;n[D]=n[l[3]]/a[l[4]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]]-n[l[4]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=a[l[3]];e=e+1;l=d[e];c=l[1];local i;local t=l[2];local H={};local D=0;local C=t+l[3]-1;for l=t+1,C do D=D+1;H[D]=n[l];end;i,C=L(n[t](f(H,1,C-t)));C=t+l[4]-2;D=0;for l=t,C do D=D+1;n[l]=i[D];end;o=C;e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]]*n[l[4]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c<=20 then if c<=16 then if c<=14 then local D;local a=l[2];local d={};local e=0;local c=a+l[3]-1;for l=a+1,c do e=e+1;d[e]=n[l];end;D,c=L(n[a](f(d,1,c-a)));c=a+l[4]-2;e=0;for l=a,c do e=e+1;n[l]=D[e];end;o=c;elseif c>15 then local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=a[l[3]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=a[l[3]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=a[l[3]];else local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c<=18 then if c>17 then local i;local t=l[2];local H={};local D=0;local C=t+l[3]-1;for l=t+1,C do D=D+1;H[D]=n[l];end;i,C=L(n[t](f(H,1,C-t)));C=t+l[4]-2;D=0;for l=t,C do D=D+1;n[l]=i[D];end;o=C;e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local f=l[2];local C,D=L(n[f]());D=f+l[4]-2;local L=0;for l=f,D do L=L+1;n[l]=C[L];end;o=D;e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];else local C=l[2];if C>o then o=C end;n[C]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local C=l[2];if C>o then o=C end;n[C]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];local C=n[l[3]];n[D+1]=C;n[D]=C[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local d;local a=l[2];local D={};local e=0;local c=a+l[3]-1;for l=a+1,c do e=e+1;D[e]=n[l];end;d,c=L(n[a](f(D,1,c-a)));c=a+l[4]-2;e=0;for l=a,c do e=e+1;n[l]=d[e];end;o=c;end;elseif c>19 then local D=l[2];if D>o then o=D end;n[D]=a[l[3]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local H;local C=l[2];local i={};local D=0;local t=C+l[3]-1;for l=C+1,t do D=D+1;i[D]=n[l];end;H,t=L(n[C](f(i,1,t-C)));t=C+l[4]-2;D=0;for l=C,t do D=D+1;n[l]=H[D];end;o=t;e=e+1;l=d[e];c=l[1];n[l[2]][a[l[3]]]=a[l[4]];else n[l[2]][a[l[3]]]=n[l[4]];e=e+1;l=d[e];c=l[1];local C=l[2];if C>o then o=C end;n[C]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];n[l[2]][a[l[3]]]=n[l[4]];e=e+1;l=d[e];c=l[1];local C=l[2];if C>o then o=C end;n[C]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];local C=n[l[3]];n[D+1]=C;n[D]=C[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local a;local c=l[2];local d={};local e=0;local l=c+l[3]-1;for l=c+1,l do e=e+1;d[e]=n[l];end;a,l=L(n[c](f(d,1,l-c)));l=l+c-1;e=0;for l=c,l do e=e+1;n[l]=a[e];end;o=l;end;elseif c<=23 then if c<=21 then local e=l[2];if e>o then o=e end;n[e]=n[l[3]]+n[l[4]];elseif c>22 then local D=l[2];local C=n[l[3]];n[D+1]=C;n[D]=C[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local t;local C=l[2];local H={};local a=0;local D=C+l[3]-1;for l=C+1,D do a=a+1;H[a]=n[l];end;t,D=L(n[C](f(H,1,D-C)));D=D+C-1;a=0;for l=C,D do a=a+1;n[l]=t[a];end;o=D;e=e+1;l=d[e];c=l[1];local d;local a=l[2];local D={};local e=0;local c=o;for l=a+1,c do e=e+1;D[e]=n[l];end;d,c=L(n[a](f(D,1,c-a)));c=a+l[4]-2;e=0;for l=a,c do e=e+1;n[l]=d[e];end;o=c;else local c=K[l[3]];local a;if c[5]~=0 then local l={};a=T({},{__index=function(n,e)local l=l[e];return l[1][l[2]];end,__newindex=function(o,n,e)local l=l[n]l[1][l[2]]=e;end;});for o=1,c[5]do e=e+1;local e=d[e];if e[1]==61 then l[o-1]={n,e[3]};else l[o-1]={C,e[3]};end;t[#t+1]=l;end;end;local l=l[2];if l>o then o=l end;n[l]=i(c,a,D);end;elseif c<=25 then if c>24 then local e=l[2];if e>o then o=e end;n[e]=C[l[3]];else if not n[l[2]]then e=e+1;end;end;elseif c>26 then local d;local e=l[2];local a={};local c=0;local l=e+l[3]-1;for l=e+1,l do c=c+1;a[c]=n[l];end;d,l=L(n[e](f(a,1,l-e)));o=e-1;else local e=l[2];local c=n[l[3]];n[e+1]=c;n[e]=c[a[l[4]]];if e+1>o then o=e+1 end;end;elseif c<=41 then if c<=34 then if c<=30 then if c<=28 then local L=l[2];if L>o then o=L end;n[L]=n[l[3]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];elseif c>29 then local f=l[2];if f>o then o=f end;n[f]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local f=l[2];if f>o then o=f end;n[f]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local f=l[2];if f>o then o=f end;n[f]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];local a,l=L(n[e]());o=e-1;l=l+e-1;local c=0;for l=e,l do c=c+1;n[l]=a[c];end;o=l;else local K;local H=l[2];local i={};local C=0;local t=H+l[3]-1;for l=H+1,t do C=C+1;i[C]=n[l];end;K,t=L(n[H](f(i,1,t-H)));t=H+l[4]-2;C=0;for l=H,t do C=C+1;n[l]=K[C];end;o=t;e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c<=32 then if c>31 then local e=l[2];if e>o then o=e end;n[e]=n[l[3]]+a[l[4]];else local D=l[2];local C=n[l[3]];n[D+1]=C;n[D]=C[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=a[l[3]];e=e+1;l=d[e];c=l[1];local d;local c=l[2];local D={};local e=0;local a=c+l[3]-1;for l=c+1,a do e=e+1;D[e]=n[l];end;d,a=L(n[c](f(D,1,a-c)));a=c+l[4]-2;e=0;for l=c,a do e=e+1;n[l]=d[e];end;o=a;end;elseif c>33 then n[l[2]][a[l[3]]]=n[l[4]];e=e+1;l=d[e];c=l[1];local L=K[l[3]];local f;if L[5]~=0 then local l={};f=T({},{__index=function(n,e)local l=l[e];return l[1][l[2]];end,__newindex=function(o,e,n)local l=l[e]l[1][l[2]]=n;end;});for o=1,L[5]do e=e+1;local e=d[e];if e[1]==61 then l[o-1]={n,e[3]};else l[o-1]={C,e[3]};end;t[#t+1]=l;end;end;local a=l[2];if a>o then o=a end;n[a]=i(L,f,D);e=e+1;l=d[e];c=l[1];local a=K[l[3]];local f;if a[5]~=0 then local l={};f=T({},{__index=function(n,e)local l=l[e];return l[1][l[2]];end,__newindex=function(o,n,e)local l=l[n]l[1][l[2]]=e;end;});for o=1,a[5]do e=e+1;local e=d[e];if e[1]==61 then l[o-1]={n,e[3]};else l[o-1]={C,e[3]};end;t[#t+1]=l;end;end;local L=l[2];if L>o then o=L end;n[L]=i(a,f,D);e=e+1;l=d[e];c=l[1];local c=K[l[3]];local a;if c[5]~=0 then local l={};a=T({},{__index=function(n,e)local l=l[e];return l[1][l[2]];end,__newindex=function(o,n,e)local l=l[n]l[1][l[2]]=e;end;});for o=1,c[5]do e=e+1;local e=d[e];if e[1]==61 then l[o-1]={n,e[3]};else l[o-1]={C,e[3]};end;t[#t+1]=l;end;end;local l=l[2];if l>o then o=l end;n[l]=i(c,a,D);else local e=l[2];if e>o then o=e end;n[e]=(not n[l[3]]);end;elseif c<=37 then if c<=35 then local e=l[2];if e>o then o=e end;n[e]=L(f({},1,l[3]));elseif c>36 then local D=l[2];if D>o then o=D end;n[D]=C[l[3]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=C[l[3]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=(not n[l[3]]);else local t=l[2];if t>o then o=t end;n[t]=C[l[3]];e=e+1;l=d[e];c=l[1];local K;local t=l[2];local i={};local C=0;local H=t+l[3]-1;for l=t+1,H do C=C+1;i[C]=n[l];end;K,H=L(n[t](f(i,1,H-t)));H=t+l[4]-2;C=0;for l=t,H do C=C+1;n[l]=K[C];end;o=H;e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c<=39 then if c>38 then local i;local H=l[2];local K={};local C=0;local t=H+l[3]-1;for l=H+1,t do C=C+1;K[C]=n[l];end;i,t=L(n[H](f(K,1,t-H)));t=H+l[4]-2;C=0;for l=H,t do C=C+1;n[l]=i[C];end;o=t;e=e+1;l=d[e];c=l[1];D[a[l[3]]]=n[l[2]];e=e+1;l=d[e];c=l[1];D[a[l[3]]]=n[l[2]];e=e+1;l=d[e];c=l[1];D[a[l[3]]]=n[l[2]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];else local t=l[2];if t>o then o=t end;n[t]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local t=l[2];local H=n[l[3]];n[t+1]=H;n[t]=H[a[l[4]]];if t+1>o then o=t+1 end;e=e+1;l=d[e];c=l[1];local t=l[2];if t>o then o=t end;n[t]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local t=l[2];if t>o then o=t end;n[t]=C[l[3]];e=e+1;l=d[e];c=l[1];local i;local H=l[2];local K={};local C=0;local t=H+l[3]-1;for l=H+1,t do C=C+1;K[C]=n[l];end;i,t=L(n[H](f(K,1,t-H)));t=H+l[4]-2;C=0;for l=H,t do C=C+1;n[l]=i[C];end;o=t;e=e+1;l=d[e];c=l[1];D[a[l[3]]]=n[l[2]];end;elseif c>40 then for l=l[2],l[3]do n[l]=nil;end;else n[l[2]][a[l[3]]]=n[l[4]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=a[l[3]];end;elseif c<=48 then if c<=44 then if c<=42 then local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];local c=n[l[3]];n[e+1]=c;n[e]=c[a[l[4]]];if e+1>o then o=e+1 end;elseif c>43 then local e=l[2];local a,c=L(n[e]());c=e+l[4]-2;local l=0;for e=e,c do l=l+1;n[e]=a[l];end;o=c;else local L=l[2];if L>o then o=L end;n[L]=C[l[3]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];n[l[2]][a[l[3]]]=n[l[4]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=C[l[3]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];n[l[2]][a[l[3]]]=n[l[4]];end;elseif c<=46 then if c>45 then n[l[2]][a[l[3]]]=a[l[4]];e=e+1;l=d[e];c=l[1];n[l[2]][a[l[3]]]=a[l[4]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=(l[3]~=0);e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=(l[3]~=0);e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=a[l[3]];else local a=l[2];if a>o then o=a end;n[a]=n[l[3]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]];end;elseif c>47 then local c=l[3];local e=n[c]for l=c+1,l[4]do e=e..n[l];end;local l=l[2];if l>o then o=l end;n[l]=e;else local a=l[2];if a>o then o=a end;n[a]=C[l[3]];e=e+1;l=d[e];c=l[1];local e=l[2];local a,c=L(n[e]());c=e+l[4]-2;local l=0;for e=e,c do l=l+1;n[e]=a[l];end;o=c;end;elseif c<=51 then if c<=49 then local H=l[2];if H>o then o=H end;n[H]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local H=l[2];if H>o then o=H end;n[H]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local H=l[2];if H>o then o=H end;n[H]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local a=l[2];local H=n[a];for l=1,l[3]do H[l]=n[a+l]end;e=e+1;l=d[e];c=l[1];local a=l[2];if a>o then o=a end;n[a]=L(f({},1,l[3]));e=e+1;l=d[e];c=l[1];local c=K[l[3]];local a;if c[5]~=0 then local l={};a=T({},{__index=function(n,e)local l=l[e];return l[1][l[2]];end,__newindex=function(o,e,n)local l=l[e]l[1][l[2]]=n;end;});for o=1,c[5]do e=e+1;local e=d[e];if e[1]==61 then l[o-1]={n,e[3]};else l[o-1]={C,e[3]};end;t[#t+1]=l;end;end;local l=l[2];if l>o then o=l end;n[l]=i(c,a,D);elseif c>50 then local L=l[2];if L>o then o=L end;n[L]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];else for l=l[2],l[3]do n[l]=nil;end;e=e+1;l=d[e];c=l[1];local C=l[2];if C>o then o=C end;n[C]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local C=l[2];if C>o then o=C end;n[C]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];local C=n[l[3]];n[D+1]=C;n[D]=C[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local d;local c=l[2];local a={};local e=0;local l=c+l[3]-1;for l=c+1,l do e=e+1;a[e]=n[l];end;d,l=L(n[c](f(a,1,l-c)));l=l+c-1;e=0;for l=c,l do e=e+1;n[l]=d[e];end;o=l;end;elseif c<=53 then if c>52 then local D;local a=l[2];local d={};local e=0;local c=o;for l=a+1,c do e=e+1;d[e]=n[l];end;D,c=L(n[a](f(d,1,c-a)));c=a+l[4]-2;e=0;for l=a,c do e=e+1;n[l]=D[e];end;o=c;else C[l[3]]=n[l[2]];e=e+1;l=d[e];c=l[1];local C=l[2];if C>o then o=C end;n[C]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];local C=n[l[3]];n[D+1]=C;n[D]=C[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local d;local e=l[2];local a={};local c=0;local l=e+l[3]-1;for l=e+1,l do c=c+1;a[c]=n[l];end;d,l=L(n[e](f(a,1,l-e)));o=e-1;end;elseif c>54 then local f=K[l[3]];local H;if f[5]~=0 then local l={};H=T({},{__index=function(n,e)local l=l[e];return l[1][l[2]];end,__newindex=function(o,n,e)local l=l[n]l[1][l[2]]=e;end;});for o=1,f[5]do e=e+1;local e=d[e];if e[1]==61 then l[o-1]={n,e[3]};else l[o-1]={C,e[3]};end;t[#t+1]=l;end;end;local L=l[2];if L>o then o=L end;n[L]=i(f,H,D);e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=a[l[3]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local e=l[2];local c=n[l[3]];n[e+1]=c;n[e]=c[a[l[4]]];if e+1>o then o=e+1 end;else C[l[3]]=n[l[2]];end;elseif c<=83 then if c<=69 then if c<=62 then if c<=58 then if c<=56 then if(n[l[3]]<n[l[4]])then e=e+1;end;elseif c>57 then local D=l[2];if D>o then o=D end;n[D]=n[l[3]]-n[l[4]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]]*a[l[4]];e=e+1;l=d[e];c=l[1];local d;local a=l[2];local D={};local e=0;local c=a+l[3]-1;for l=a+1,c do e=e+1;D[e]=n[l];end;d,c=L(n[a](f(D,1,c-a)));c=a+l[4]-2;e=0;for l=a,c do e=e+1;n[l]=d[e];end;o=c;else local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c<=60 then if c>59 then local D=l[2];if D>o then o=D end;n[D]=n[l[3]][n[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];local C=n[l[3]];n[D+1]=C;n[D]=C[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local d;local c=l[2];local D={};local e=0;local a=c+l[3]-1;for l=c+1,a do e=e+1;D[e]=n[l];end;d,a=L(n[c](f(D,1,a-c)));a=c+l[4]-2;e=0;for l=c,a do e=e+1;n[l]=d[e];end;o=a;else local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=C[l[3]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c>61 then local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];local L=n[l[3]];n[D+1]=L;n[D]=L[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local a=l[2];if a>o then o=a end;n[a]=n[l[3]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=C[l[3]];else local e=l[2];if e>o then o=e end;n[e]=n[l[3]];end;elseif c<=65 then if c<=63 then n[l[2]][a[l[3]]]=n[l[4]];elseif c>64 then local e=l[2];local a,l=L(n[e]());o=e-1;l=l+e-1;local c=0;for l=e,l do c=c+1;n[l]=a[c];end;o=l;else local D=l[2];if D>o then o=D end;n[D]=n[l[3]][n[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];n[l[2]][a[l[3]]]=n[l[4]];end;elseif c<=67 then if c>66 then local D=l[2];if D>o then o=D end;n[D]=a[l[3]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=a[l[3]];else n[l[2]][a[l[3]]]=a[l[4]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=a[l[3]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c>68 then local t=l[2];if t>o then o=t end;n[t]=L(f({},1,l[3]));e=e+1;l=d[e];c=l[1];D[a[l[3]]]=n[l[2]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=C[l[3]];else local e=l[2];if e>o then o=e end;n[e]=a[l[3]];end;elseif c<=76 then if c<=72 then if c<=70 then local e=l[2];if e>o then o=e end;n[e]=n[l[3]]-n[l[4]];elseif c>71 then local d;local l=l[2];local a={};local c=0;local e=o;for l=l+1,e do c=c+1;a[c]=n[l];end;d,e=L(n[l](f(a,1,e-l)));o=l-1;else do return end;end;elseif c<=74 then if c>73 then local e=l[2];if e>o then o=e end;n[e]=n[l[3]]*a[l[4]];else local e=l[2];local o=n[e];for l=1,l[3]do o[l]=n[e+l]end;end;elseif c>75 then local e=l[2];if e>o then o=e end;n[e]=D[a[l[3]]];else local C=l[2];if C>o then o=C end;n[C]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];local C=n[l[3]];n[D+1]=C;n[D]=C[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=a[l[3]];e=e+1;l=d[e];c=l[1];local i;local t=l[2];local H={};local D=0;local C=t+l[3]-1;for l=t+1,C do D=D+1;H[D]=n[l];end;i,C=L(n[t](f(H,1,C-t)));C=t+l[4]-2;D=0;for l=t,C do D=D+1;n[l]=i[D];end;o=C;e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c<=79 then if c<=77 then if(n[l[3]]==a[l[4]])then e=e+1;end;elseif c>78 then e=e+l[3];else local i;local C=l[2];local H={};local D=0;local t=C+l[3]-1;for l=C+1,t do D=D+1;H[D]=n[l];end;i,t=L(n[C](f(H,1,t-C)));t=C+l[4]-2;D=0;for l=C,t do D=D+1;n[l]=i[D];end;o=t;e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=(l[3]~=0);end;elseif c<=81 then if c>80 then local D=l[2];if D>o then o=D end;n[D]=C[l[3]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];else local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=D[a[l[3]]];end;elseif c>82 then n[l[2]][a[l[3]]]=a[l[4]];else local L=l[2];if L>o then o=L end;n[L]=a[l[3]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c<=97 then if c<=90 then if c<=86 then if c<=84 then local e=l[2];if e>o then o=e end;n[e]=#n[l[3]];elseif c>85 then local L=l[2];if L>o then o=L end;n[L]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];D[a[l[3]]]=n[l[2]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];else n[l[2]][a[l[3]]]=n[l[4]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c<=88 then if c>87 then local e=l[2];H={};local l=e+l[3]-1;for l=e+1,l do H[#H+1]=n[l];end;do return n[e](f(H,1,l-e))end;else local C=l[2];if C>o then o=C end;n[C]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];local C=n[l[3]];n[D+1]=C;n[D]=C[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=a[l[3]];e=e+1;l=d[e];c=l[1];local D;local c=l[2];local d={};local e=0;local a=c+l[3]-1;for l=c+1,a do e=e+1;d[e]=n[l];end;D,a=L(n[c](f(d,1,a-c)));a=c+l[4]-2;e=0;for l=c,a do e=e+1;n[l]=D[e];end;o=a;end;elseif c>89 then n[l[2]][a[l[3]]]=n[l[4]];e=e+1;l=d[e];c=l[1];local K;local H=l[2];local i={};local C=0;local t=H+l[3]-1;for l=H+1,t do C=C+1;i[C]=n[l];end;K,t=L(n[H](f(i,1,t-H)));t=H+l[4]-2;C=0;for l=H,t do C=C+1;n[l]=K[C];end;o=t;e=e+1;l=d[e];c=l[1];local C=l[2];local t=n[l[3]];n[C+1]=t;n[C]=t[a[l[4]]];if C+1>o then o=C+1 end;e=e+1;l=d[e];c=l[1];local i;local t=l[2];local K={};local C=0;local H=t+l[3]-1;for l=t+1,H do C=C+1;K[C]=n[l];end;i,H=L(n[t](f(K,1,H-t)));H=t+l[4]-2;C=0;for l=t,H do C=C+1;n[l]=i[C];end;o=H;e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=D[a[l[3]]];else local t=l[2];if t>o then o=t end;n[t]=C[l[3]];e=e+1;l=d[e];c=l[1];local C=l[2];if C>o then o=C end;n[C]=a[l[3]];e=e+1;l=d[e];c=l[1];local K;local C=l[2];local i={};local t=0;local H=C+l[3]-1;for l=C+1,H do t=t+1;i[t]=n[l];end;K,H=L(n[C](f(i,1,H-C)));o=C-1;e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=D[a[l[3]]];end;elseif c<=93 then if c<=91 then local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];elseif c>92 then local L=l[2];if L>o then o=L end;n[L]=(l[3]~=0);e=e+1;l=d[e];c=l[1];D[a[l[3]]]=n[l[2]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];local c=n[l[3]];n[e+1]=c;n[e]=c[a[l[4]]];if e+1>o then o=e+1 end;else local l=l[2];n[l]();o=l-1;end;elseif c<=95 then if c>94 then local C=l[2];if C>o then o=C end;n[C]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local K;local H=l[2];local i={};local C=0;local t=H+l[3]-1;for l=H+1,t do C=C+1;i[C]=n[l];end;K,t=L(n[H](f(i,1,t-H)));t=H+l[4]-2;C=0;for l=H,t do C=C+1;n[l]=K[C];end;o=t;e=e+1;l=d[e];c=l[1];D[a[l[3]]]=n[l[2]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=D[a[l[3]]];else local e=l[2];if e>o then o=e end;n[e]=(l[3]~=0);end;elseif c>96 then if n[l[2]]then e=e+1;end;else local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];local L=n[l[3]];n[D+1]=L;n[D]=L[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=C[l[3]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];end;elseif c<=104 then if c<=100 then if c<=98 then local L=l[2];if L>o then o=L end;n[L]=C[l[3]];e=e+1;l=d[e];c=l[1];D[a[l[3]]]=n[l[2]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];elseif c>99 then local o=l[2];local c=o+l[3]-2;local e={};local l=0;for o=o,c do l=l+1;e[l]=n[o];end;do return f(e,1,l)end;else local L=l[2];if L>o then o=L end;n[L]=n[l[3]]/a[l[4]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=n[l[3]]+n[l[4]];e=e+1;l=d[e];c=l[1];D[a[l[3]]]=n[l[2]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=C[l[3]];end;elseif c<=102 then if c>101 then local D=l[2];if D>o then o=D end;n[D]=C[l[3]];e=e+1;l=d[e];c=l[1];local D=l[2];local C=n[l[3]];n[D+1]=C;n[D]=C[a[l[4]]];if D+1>o then o=D+1 end;e=e+1;l=d[e];c=l[1];local H;local C=l[2];local t={};local a=0;local D=C+l[3]-1;for l=C+1,D do a=a+1;t[a]=n[l];end;H,D=L(n[C](f(t,1,D-C)));D=D+C-1;a=0;for l=C,D do a=a+1;n[l]=H[a];end;o=D;e=e+1;l=d[e];c=l[1];local d;local a=l[2];local D={};local e=0;local c=o;for l=a+1,c do e=e+1;D[e]=n[l];end;d,c=L(n[a](f(D,1,c-a)));c=a+l[4]-2;e=0;for l=a,c do e=e+1;n[l]=d[e];end;o=c;else if(a[l[3]]<n[l[4]])then e=e+1;end;end;elseif c>103 then local L=l[2];if L>o then o=L end;n[L]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local D=l[2];if D>o then o=D end;n[D]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];else if(n[l[3]]>=a[l[4]])then e=e+1;end;end;elseif c<=107 then if c<=105 then D[a[l[3]]]=n[l[2]];elseif c>106 then local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=n[l[3]][a[l[4]]];e=e+1;l=d[e];c=l[1];local L=l[2];if L>o then o=L end;n[L]=D[a[l[3]]];e=e+1;l=d[e];c=l[1];local e=l[2];if e>o then o=e end;n[e]=n[l[3]][a[l[4]]];else if(n[l[3]]==n[l[4]])then e=e+1;end;end;elseif c<=109 then if c>108 then local e=l[2];if e>o then o=e end;n[e]=n[l[3]]%a[l[4]];else local e=l[2];if e>o then o=e end;n[e]=n[l[3]][n[l[4]]];end;elseif c>110 then local a;local c=l[2];local d={};local e=0;local l=c+l[3]-1;for l=c+1,l do e=e+1;d[e]=n[l];end;a,l=L(n[c](f(d,1,l-c)));l=l+c-1;e=0;for l=c,l do e=e+1;n[l]=a[e];end;o=l;else local e=l[2];if e>o then o=e end;n[e]=n[l[3]]/a[l[4]];end;e=e+1;end;end;end;return i(Q(),{},E())();
+end)
+
+CloneFrame.Name = "CloneFrame"
+CloneFrame.Parent = LT2Update
+CloneFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+CloneFrame.Position = UDim2.new(0.93865031, 0, 0.74570024, 0)
+CloneFrame.Size = UDim2.new(0, 100, 0, 148)
+CloneFrame.Visible = false
+CloneFrame.Style = Enum.FrameStyle.RobloxRound
+
+XClone.Name = "XClone"
+XClone.Parent = CloneFrame
+XClone.BackgroundColor3 = Color3.new(1, 1, 1)
+XClone.Position = UDim2.new(0.803468347, 0, -0.0663147122, 0)
+XClone.Size = UDim2.new(0, 23, 0, 23)
+XClone.Style = Enum.ButtonStyle.RobloxRoundButton
+XClone.Font = Enum.Font.SourceSans
+XClone.Text = "X"
+XClone.TextColor3 = Color3.new(0, 0, 0)
+XClone.TextSize = 14
+XClone.MouseButton1Down:connect(function()
+	CloneFrame.Visible = false
+end)
+
+Clone_2.Name = "Clone"
+Clone_2.Parent = CloneFrame
+Clone_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Clone_2.Position = UDim2.new(-0.0602734312, 0, 0.400832742, 0)
+Clone_2.Size = UDim2.new(0, 95, 0, 24)
+Clone_2.Style = Enum.ButtonStyle.RobloxRoundButton
+Clone_2.Font = Enum.Font.SourceSansSemibold
+Clone_2.Text = "Clone Base"
+Clone_2.TextColor3 = Color3.new(0, 0, 0)
+Clone_2.TextSize = 18
+
+Nothing_8.Name = "Nothing"
+Nothing_8.Parent = CloneFrame
+Nothing_8.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_8.Position = UDim2.new(-0.100416258, 0, 0.139724731, 0)
+Nothing_8.Size = UDim2.new(0, 100, 0, 31)
+Nothing_8.Style = Enum.FrameStyle.RobloxRound
+
+TClone.Name = "TClone"
+TClone.Parent = Nothing_8
+TClone.BackgroundColor3 = Color3.new(1, 1, 1)
+TClone.BackgroundTransparency = 1
+TClone.Position = UDim2.new(-0.0567456074, 0, -0.401991308, 0)
+TClone.Size = UDim2.new(0, 95, 0, 31)
+TClone.Font = Enum.Font.SourceSans
+TClone.Text = ""
+TClone.TextColor3 = Color3.new(1, 1, 1)
+TClone.TextSize = 14
+
+Nothing_9.Name = "Nothing"
+Nothing_9.Parent = Nothing_8
+Nothing_9.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_9.BackgroundTransparency = 1
+Nothing_9.Position = UDim2.new(-0.0680004954, 0, 4.38189316, 0)
+Nothing_9.Size = UDim2.new(0, 100, 0, 50)
+Nothing_9.Font = Enum.Font.SourceSansSemibold
+Nothing_9.Text = "Wipe=Your Plot"
+Nothing_9.TextColor3 = Color3.new(0.513726, 0.513726, 0.513726)
+Nothing_9.TextSize = 15
+
+Wipe.Name = "Wipe"
+Wipe.Parent = CloneFrame
+Wipe.BackgroundColor3 = Color3.new(1, 1, 1)
+Wipe.Position = UDim2.new(-0.0602734312, 0, 0.588936031, 0)
+Wipe.Size = UDim2.new(0, 95, 0, 24)
+Wipe.Style = Enum.ButtonStyle.RobloxRoundButton
+Wipe.Font = Enum.Font.SourceSansSemibold
+Wipe.Text = "Wipe Local"
+Wipe.TextColor3 = Color3.new(0, 0, 0)
+Wipe.TextSize = 18
+Wipe.MouseButton1Down:connect(function()
+	plr = game.Players.LocalPlayer.Name
+	pmds = game.Workspace.PlayerModels
+	PlaceR = game.ReplicatedStorage.Interaction.DestroyStructure
+
+
+
+	for i, v in pairs(pmds:GetChildren()) do
+	if v:FindFirstChild("Owner") and v.Owner.Value ~= nil and v.Owner.Value == game.Players[plr] and v:FindFirstChild("ItemName") and v:FindFirstChild("Type") and (v.PrimaryPart ~= nil or v:FindFirstChild("MainCFrame")) then
+	PlaceR:FireServer(v)
+	end
+	end
+end)
+
+Nothing_10.Name = "Nothing"
+Nothing_10.Parent = CloneFrame
+Nothing_10.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_10.BackgroundTransparency = 1
+Nothing_10.Position = UDim2.new(-0.0856921375, 0, -0.076206103, 0)
+Nothing_10.Size = UDim2.new(0, 76, 0, 33)
+Nothing_10.Font = Enum.Font.SourceSansSemibold
+Nothing_10.Text = "Clone"
+Nothing_10.TextColor3 = Color3.new(0.513726, 0.513726, 0.513726)
+Nothing_10.TextSize = 25
+
+TeleporsFrame.Name = "TeleporsFrame"
+TeleporsFrame.Parent = LT2Update
+TeleporsFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+TeleporsFrame.Position = UDim2.new(0.876687109, 0, 0.378378391, 0)
+TeleporsFrame.Size = UDim2.new(0, 100, 0, 147)
+TeleporsFrame.Visible = false
+TeleporsFrame.Style = Enum.FrameStyle.RobloxRound
+
+XTp.Name = "XTp"
+XTp.Parent = TeleporsFrame
+XTp.BackgroundColor3 = Color3.new(1, 1, 1)
+XTp.Position = UDim2.new(0.813264251, 0, -0.0736970603, 0)
+XTp.Size = UDim2.new(0, 23, 0, 23)
+XTp.Style = Enum.ButtonStyle.RobloxRoundButton
+XTp.Font = Enum.Font.SourceSans
+XTp.Text = "X"
+XTp.TextColor3 = Color3.new(0, 0, 0)
+XTp.TextSize = 14
+XTp.MouseButton1Down:connect(function()
+	TeleporsFrame.Visible = false
+end)
+
+Nothing_11.Name = "Nothing"
+Nothing_11.Parent = TeleporsFrame
+Nothing_11.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_11.Position = UDim2.new(-0.103248298, 0, 0.166745082, 0)
+Nothing_11.Size = UDim2.new(0, 100, 0, 30)
+Nothing_11.Style = Enum.FrameStyle.RobloxRound
+
+TPlr.Name = "TPlr"
+TPlr.Parent = Nothing_11
+TPlr.BackgroundColor3 = Color3.new(1, 1, 1)
+TPlr.BackgroundTransparency = 1
+TPlr.Position = UDim2.new(-0.0901159719, 0, -0.580424547, 0)
+TPlr.Size = UDim2.new(0, 98, 0, 29)
+TPlr.Font = Enum.Font.SourceSans
+TPlr.Text = ""
+TPlr.TextColor3 = Color3.new(1, 1, 1)
+TPlr.TextSize = 14
+
+Nothing_12.Name = "Nothing"
+Nothing_12.Parent = Nothing_11
+Nothing_12.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_12.BackgroundTransparency = 1
+Nothing_12.Position = UDim2.new(-0.13433592, 0, -2.70844603, 0)
+Nothing_12.Size = UDim2.new(0, 89, 0, 32)
+Nothing_12.Font = Enum.Font.SourceSansSemibold
+Nothing_12.Text = "Teleports"
+Nothing_12.TextColor3 = Color3.new(0.513726, 0.513726, 0.513726)
+Nothing_12.TextSize = 21
+
+Waypoints.Name = "Waypoints"
+Waypoints.Parent = Nothing_11
+Waypoints.BackgroundColor3 = Color3.new(1, 1, 1)
+Waypoints.Position = UDim2.new(-0.0389208943, 0, 5.55270815, 0)
+Waypoints.Size = UDim2.new(0, 89, 0, 25)
+Waypoints.Style = Enum.ButtonStyle.RobloxRoundButton
+Waypoints.Font = Enum.Font.SourceSansSemibold
+Waypoints.Text = "Waypoints"
+Waypoints.TextColor3 = Color3.new(0, 0, 0)
+Waypoints.TextSize = 14
+Waypoints.MouseButton1Down:connect(function()
+	WaypointFrame.Visible = true
+end)
+
+CtrlClick.Name = "CtrlClick"
+CtrlClick.Parent = Nothing_11
+CtrlClick.BackgroundColor3 = Color3.new(1, 1, 1)
+CtrlClick.Position = UDim2.new(-0.0389208943, 0, 3.65270805, 0)
+CtrlClick.Size = UDim2.new(0, 89, 0, 25)
+CtrlClick.Style = Enum.ButtonStyle.RobloxRoundButton
+CtrlClick.Font = Enum.Font.SourceSansSemibold
+CtrlClick.Text = "Ctrl + Click"
+CtrlClick.TextColor3 = Color3.new(0, 0, 0)
+CtrlClick.TextSize = 14
+CtrlClick.MouseButton1Down:connect(function()
+	local Player = game.Players.LocalPlayer
+local Mouse = Player:GetMouse()
+local UserInputService = game:GetService('UserInputService')
+
+local HoldingControl = false
+
+Mouse.Button1Down:connect(function()
+if HoldingControl then
+Player.Character:MoveTo(Mouse.Hit.p)
+end
+end)
+
+UserInputService.InputBegan:connect(function(Input, Processed)
+if Input.UserInputType == Enum.UserInputType.Keyboard then
+if Input.KeyCode == Enum.KeyCode.LeftControl then
+HoldingControl = true
+elseif Input.KeyCode == Enum.KeyCode.RightControl then
+HoldingControl = true 
+end
+end
+end)
+
+UserInputService.InputEnded:connect(function(Input, Processed)
+if Input.UserInputType == Enum.UserInputType.Keyboard then
+if Input.KeyCode == Enum.KeyCode.LeftControl then
+HoldingControl = false
+elseif Input.KeyCode == Enum.KeyCode.RightControl then
+HoldingControl = false
+end
+end
+end)
+end)
+
+TpToPlyr.Name = "TpToPlyr"
+TpToPlyr.Parent = Nothing_11
+TpToPlyr.BackgroundColor3 = Color3.new(1, 1, 1)
+TpToPlyr.Position = UDim2.new(-0.0389208943, 0, 1.8860414, 0)
+TpToPlyr.Size = UDim2.new(0, 89, 0, 25)
+TpToPlyr.Style = Enum.ButtonStyle.RobloxRoundButton
+TpToPlyr.Font = Enum.Font.SourceSansSemibold
+TpToPlyr.Text = "Tp To Player"
+TpToPlyr.TextColor3 = Color3.new(0, 0, 0)
+TpToPlyr.TextSize = 14
+TpToPlyr.MouseButton1Click:connect(function()
+	local tp_namedplayer = TPlr.Text
+    local tp_player = game:GetService("Players")[tp_namedplayer]
+    local PLR = game:GetService("Players").LocalPlayer
+    local p = TPlr.Text
+   
+    if tp_player then
+            for i = 1,20 do
+        wait()
+        PLR.Character.HumanoidRootPart.CFrame = tp_player.Character.HumanoidRootPart.CFrame + Vector3.new(0, 3, 0)
+        end
+    end
+end)
+
+WaypointFrame.Name = "WaypointFrame"
+WaypointFrame.Parent = LT2Update
+WaypointFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+WaypointFrame.Position = UDim2.new(0.815337479, 0, 0.22851862, 0)
+WaypointFrame.Size = UDim2.new(0, 100, 0, 462)
+WaypointFrame.Visible = false
+WaypointFrame.Style = Enum.FrameStyle.RobloxRound
+
+Nothing_13.Name = "Nothing"
+Nothing_13.Parent = WaypointFrame
+Nothing_13.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_13.BackgroundTransparency = 1
+Nothing_13.Position = UDim2.new(-0.113200895, 0, 0.0244222712, 0)
+Nothing_13.Size = UDim2.new(0, 100, 0, 755)
+
+BobsShack.Name = "BobsShack"
+BobsShack.Parent = Nothing_13
+BobsShack.BackgroundColor3 = Color3.new(1, 1, 1)
+BobsShack.Position = UDim2.new(0.0299999993, 0, 0.230461329, 0)
+BobsShack.Size = UDim2.new(0, 95, 0, 24)
+BobsShack.Style = Enum.ButtonStyle.RobloxRoundButton
+BobsShack.Font = Enum.Font.SourceSansSemibold
+BobsShack.Text = "BobsShack"
+BobsShack.TextColor3 = Color3.new(0, 0, 0)
+BobsShack.TextSize = 14
+
+BoxedCars.Name = "BoxedCars"
+BoxedCars.Parent = Nothing_13
+BoxedCars.BackgroundColor3 = Color3.new(1, 1, 1)
+BoxedCars.Position = UDim2.new(0.0299999993, 0, 0.288559914, 0)
+BoxedCars.Size = UDim2.new(0, 95, 0, 24)
+BoxedCars.Style = Enum.ButtonStyle.RobloxRoundButton
+BoxedCars.Font = Enum.Font.SourceSansSemibold
+BoxedCars.Text = "Boxed Cars"
+BoxedCars.TextColor3 = Color3.new(0, 0, 0)
+BoxedCars.TextSize = 14
+
+Bridge.Name = "Bridge"
+Bridge.Parent = Nothing_13
+Bridge.BackgroundColor3 = Color3.new(1, 1, 1)
+Bridge.Position = UDim2.new(0.0299999993, 0, 0.258630306, 0)
+Bridge.Size = UDim2.new(0, 95, 0, 24)
+Bridge.Style = Enum.ButtonStyle.RobloxRoundButton
+Bridge.Font = Enum.Font.SourceSansSemibold
+Bridge.Text = "Bridge"
+Bridge.TextColor3 = Color3.new(0, 0, 0)
+Bridge.TextSize = 14
+
+Cave.Name = "Cave"
+Cave.Parent = Nothing_13
+Cave.BackgroundColor3 = Color3.new(1, 1, 1)
+Cave.Position = UDim2.new(0.0299999993, 0, 0.116905004, 0)
+Cave.Size = UDim2.new(0, 95, 0, 24)
+Cave.Style = Enum.ButtonStyle.RobloxRoundButton
+Cave.Font = Enum.Font.SourceSansSemibold
+Cave.Text = "Cave"
+Cave.TextColor3 = Color3.new(0, 0, 0)
+Cave.TextSize = 14
+
+Dock.Name = "Dock"
+Dock.Parent = Nothing_13
+Dock.BackgroundColor3 = Color3.new(1, 1, 1)
+Dock.Position = UDim2.new(0.0299999993, 0, 0.345778227, 0)
+Dock.Size = UDim2.new(0, 95, 0, 24)
+Dock.Style = Enum.ButtonStyle.RobloxRoundButton
+Dock.Font = Enum.Font.SourceSansSemibold
+Dock.Text = "Dock"
+Dock.TextColor3 = Color3.new(0, 0, 0)
+Dock.TextSize = 14
+
+EndTimes.Name = "EndTimes"
+EndTimes.Parent = Nothing_13
+EndTimes.BackgroundColor3 = Color3.new(1, 1, 1)
+EndTimes.Position = UDim2.new(0.0299999993, 0, 0.31672892, 0)
+EndTimes.Size = UDim2.new(0, 95, 0, 24)
+EndTimes.Style = Enum.ButtonStyle.RobloxRoundButton
+EndTimes.Font = Enum.Font.SourceSansSemibold
+EndTimes.Text = "End Times"
+EndTimes.TextColor3 = Color3.new(0, 0, 0)
+EndTimes.TextSize = 14
+
+FancyFurnishings.Name = "FancyFurnishings"
+FancyFurnishings.Parent = Nothing_13
+FancyFurnishings.BackgroundColor3 = Color3.new(1, 1, 1)
+FancyFurnishings.Position = UDim2.new(0.0299999993, 0, 0.403876781, 0)
+FancyFurnishings.Size = UDim2.new(0, 95, 0, 24)
+FancyFurnishings.Style = Enum.ButtonStyle.RobloxRoundButton
+FancyFurnishings.Font = Enum.Font.SourceSansSemibold
+FancyFurnishings.Text = "FancyFurn"
+FancyFurnishings.TextColor3 = Color3.new(0, 0, 0)
+FancyFurnishings.TextSize = 14
+
+FineArtsShop.Name = "FineArtsShop"
+FineArtsShop.Parent = Nothing_13
+FineArtsShop.BackgroundColor3 = Color3.new(1, 1, 1)
+FineArtsShop.Position = UDim2.new(0.0299999993, 0, 0.432045817, 0)
+FineArtsShop.Size = UDim2.new(0, 95, 0, 24)
+FineArtsShop.Style = Enum.ButtonStyle.RobloxRoundButton
+FineArtsShop.Font = Enum.Font.SourceSansSemibold
+FineArtsShop.Text = "Fine Art"
+FineArtsShop.TextColor3 = Color3.new(0, 0, 0)
+FineArtsShop.TextSize = 14
+
+LandStore.Name = "LandStore"
+LandStore.Parent = Nothing_13
+LandStore.BackgroundColor3 = Color3.new(1, 1, 1)
+LandStore.Position = UDim2.new(0.0299999993, 0, 0.0596866906, 0)
+LandStore.Size = UDim2.new(0, 95, 0, 24)
+LandStore.Style = Enum.ButtonStyle.RobloxRoundButton
+LandStore.Font = Enum.Font.SourceSansSemibold
+LandStore.Text = "LandStore"
+LandStore.TextColor3 = Color3.new(0, 0, 0)
+LandStore.TextSize = 14
+
+LinksLogic.Name = "LinksLogic"
+LinksLogic.Parent = Nothing_13
+LinksLogic.BackgroundColor3 = Color3.new(1, 1, 1)
+LinksLogic.Position = UDim2.new(0.0299999993, 0, 0.0878557041, 0)
+LinksLogic.Size = UDim2.new(0, 95, 0, 24)
+LinksLogic.Style = Enum.ButtonStyle.RobloxRoundButton
+LinksLogic.Font = Enum.Font.SourceSansSemibold
+LinksLogic.Text = "LinksLogic"
+LinksLogic.TextColor3 = Color3.new(0, 0, 0)
+LinksLogic.TextSize = 14
+
+PalmIsland.Name = "PalmIsland"
+PalmIsland.Parent = Nothing_13
+PalmIsland.BackgroundColor3 = Color3.new(1, 1, 1)
+PalmIsland.Position = UDim2.new(0.0299999993, 0, 0.203172609, 0)
+PalmIsland.Size = UDim2.new(0, 95, 0, 24)
+PalmIsland.Style = Enum.ButtonStyle.RobloxRoundButton
+PalmIsland.Font = Enum.Font.SourceSansSemibold
+PalmIsland.Text = "PalmIsland"
+PalmIsland.TextColor3 = Color3.new(0, 0, 0)
+PalmIsland.TextSize = 14
+
+ShrineOfSight.Name = "ShrineOfSight"
+ShrineOfSight.Parent = Nothing_13
+ShrineOfSight.BackgroundColor3 = Color3.new(1, 1, 1)
+ShrineOfSight.Position = UDim2.new(0.0299999993, 0, 0.373947203, 0)
+ShrineOfSight.Size = UDim2.new(0, 95, 0, 24)
+ShrineOfSight.Style = Enum.ButtonStyle.RobloxRoundButton
+ShrineOfSight.Font = Enum.Font.SourceSansSemibold
+ShrineOfSight.Text = "Shrine"
+ShrineOfSight.TextColor3 = Color3.new(0, 0, 0)
+ShrineOfSight.TextSize = 14
+
+SkiLodge.Name = "SkiLodge"
+SkiLodge.Parent = Nothing_13
+SkiLodge.BackgroundColor3 = Color3.new(1, 1, 1)
+SkiLodge.Position = UDim2.new(0.0299999993, 0, 0.521648407, 0)
+SkiLodge.Size = UDim2.new(0, 95, 0, 24)
+SkiLodge.Style = Enum.ButtonStyle.RobloxRoundButton
+SkiLodge.Font = Enum.Font.SourceSansSemibold
+SkiLodge.Text = "SkiLodge"
+SkiLodge.TextColor3 = Color3.new(0, 0, 0)
+SkiLodge.TextSize = 14
+
+SpawnPoint.Name = "SpawnPoint"
+SpawnPoint.Parent = Nothing_13
+SpawnPoint.BackgroundColor3 = Color3.new(1, 1, 1)
+SpawnPoint.Position = UDim2.new(0.0299999993, 0, 0.0297571067, 0)
+SpawnPoint.Size = UDim2.new(0, 95, 0, 24)
+SpawnPoint.Style = Enum.ButtonStyle.RobloxRoundButton
+SpawnPoint.Font = Enum.Font.SourceSansSemibold
+SpawnPoint.Text = "SpawnPoint"
+SpawnPoint.TextColor3 = Color3.new(0, 0, 0)
+SpawnPoint.TextSize = 14
+
+StrangeMan.Name = "StrangeMan"
+StrangeMan.Parent = Nothing_13
+StrangeMan.BackgroundColor3 = Color3.new(1, 1, 1)
+StrangeMan.Position = UDim2.new(0.0299999993, 0, 0.550697744, 0)
+StrangeMan.Size = UDim2.new(0, 95, 0, 24)
+StrangeMan.Style = Enum.ButtonStyle.RobloxRoundButton
+StrangeMan.Font = Enum.Font.SourceSansSemibold
+StrangeMan.Text = "StrangeMan"
+StrangeMan.TextColor3 = Color3.new(0, 0, 0)
+StrangeMan.TextSize = 14
+
+Swamp.Name = "Swamp"
+Swamp.Parent = Nothing_13
+Swamp.BackgroundColor3 = Color3.new(1, 1, 1)
+Swamp.Position = UDim2.new(0.0299999993, 0, 0.14507401, 0)
+Swamp.Size = UDim2.new(0, 95, 0, 24)
+Swamp.Style = Enum.ButtonStyle.RobloxRoundButton
+Swamp.Font = Enum.Font.SourceSansSemibold
+Swamp.Text = "Swamp"
+Swamp.TextColor3 = Color3.new(0, 0, 0)
+Swamp.TextSize = 14
+
+TheDen.Name = "TheDen"
+TheDen.Parent = Nothing_13
+TheDen.BackgroundColor3 = Color3.new(1, 1, 1)
+TheDen.Position = UDim2.new(0.0299999993, 0, 0.491024733, 0)
+TheDen.Size = UDim2.new(0, 95, 0, 24)
+TheDen.Style = Enum.ButtonStyle.RobloxRoundButton
+TheDen.Font = Enum.Font.SourceSansSemibold
+TheDen.Text = "The Den"
+TheDen.TextColor3 = Color3.new(0, 0, 0)
+TheDen.TextSize = 14
+
+Volcano.Name = "Volcano"
+Volcano.Parent = Nothing_13
+Volcano.BackgroundColor3 = Color3.new(1, 1, 1)
+Volcano.Position = UDim2.new(0.0299999993, 0, 0.175003588, 0)
+Volcano.Size = UDim2.new(0, 95, 0, 24)
+Volcano.Style = Enum.ButtonStyle.RobloxRoundButton
+Volcano.Font = Enum.Font.SourceSansSemibold
+Volcano.Text = "Volcano"
+Volcano.TextColor3 = Color3.new(0, 0, 0)
+Volcano.TextSize = 14
+
+VolcanoWin.Name = "VolcanoWin"
+VolcanoWin.Parent = Nothing_13
+VolcanoWin.BackgroundColor3 = Color3.new(1, 1, 1)
+VolcanoWin.Position = UDim2.new(0.0299999993, 0, 0.461975425, 0)
+VolcanoWin.Size = UDim2.new(0, 95, 0, 24)
+VolcanoWin.Style = Enum.ButtonStyle.RobloxRoundButton
+VolcanoWin.Font = Enum.Font.SourceSansSemibold
+VolcanoWin.Text = "VolcanoWin"
+VolcanoWin.TextColor3 = Color3.new(0, 0, 0)
+VolcanoWin.TextSize = 14
+
+WoodRUs.Name = "WoodRUs"
+WoodRUs.Parent = Nothing_13
+WoodRUs.BackgroundColor3 = Color3.new(1, 1, 1)
+WoodRUs.Position = UDim2.new(0.0299999993, 0, 0.00158809405, 0)
+WoodRUs.Size = UDim2.new(0, 95, 0, 24)
+WoodRUs.Style = Enum.ButtonStyle.RobloxRoundButton
+WoodRUs.Font = Enum.Font.SourceSansSemibold
+WoodRUs.Text = "WoodRUs"
+WoodRUs.TextColor3 = Color3.new(0, 0, 0)
+WoodRUs.TextSize = 14
+
+XSteal_2.Name = "XSteal"
+XSteal_2.Parent = WaypointFrame
+XSteal_2.BackgroundColor3 = Color3.new(1, 1, 1)
+XSteal_2.Position = UDim2.new(0.80326426, 0, -0.019696461, 0)
+XSteal_2.Size = UDim2.new(0, 23, 0, 23)
+XSteal_2.Style = Enum.ButtonStyle.RobloxRoundButton
+XSteal_2.Font = Enum.Font.SourceSans
+XSteal_2.Text = "X"
+XSteal_2.TextColor3 = Color3.new(0, 0, 0)
+XSteal_2.TextSize = 14
+XSteal_2.MouseButton1Down:connect(function()
+	WaypointFrame.Visible = false
+end)
+
+Nothing_14.Name = "Nothing"
+Nothing_14.Parent = WaypointFrame
+Nothing_14.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing_14.BackgroundTransparency = 1
+Nothing_14.Position = UDim2.new(-0.100191653, 0, -0.0209457595, 0)
+Nothing_14.Size = UDim2.new(0, 90, 0, 23)
+Nothing_14.Font = Enum.Font.SourceSansSemibold
+Nothing_14.Text = "Waypoints"
+Nothing_14.TextColor3 = Color3.new(0.513726, 0.513726, 0.513726)
+Nothing_14.TextSize = 22
+
+local WayPoints = {
+["Wood R Us"] = CFrame.new(265, 5, 57),
+["SpawnPoint"] = CFrame.new(155, 5, 74),
+["Land Store"] = CFrame.new(258, 5, -99),
+["Link's Logic"] = CFrame.new(4607, 9, -798),
+["Cave"] = CFrame.new(3581, -177, 430),
+["Volcano"] = CFrame.new(-1585, 625, 1140),
+["Swamp"] = CFrame.new(-1209, 138, -801),
+["Palm Island"] = CFrame.new(2549, 5, -42),
+["Fancy Furnishings"] = CFrame.new(491, 13, -1720),
+["Boxed Cars"] = CFrame.new(509, 5.2, -1463),
+["Fine Arts Shop"] = CFrame.new(5207, -156, 719),
+["Bob's Shack"] = CFrame.new(260, 10, -2542),
+["Dock"] = CFrame.new(1114, 3.2, -197),
+["Bridge"] = CFrame.new(113, 15, -977),
+["End Times"] = CFrame.new(113, -204, -951),
+["Shrine Of Sight"] = CFrame.new(-1600, 205, 919),
+["The Den"] = CFrame.new(323, 49, 1930),
+["Volcano Win"] = CFrame.new(-1675, 358, 1476),
+["Ski Lodge"] = CFrame.new(1244, 66, 2306),
+["Strange Man"] = CFrame.new(1061, 20, 1131)
+}
+
+WoodRUs.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Wood R Us"]
+end)
+
+SpawnPoint.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["SpawnPoint"]
+end)
+
+LandStore.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Land Store"]
+end)
+
+LinksLogic.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Link's Logic"]
+end)
+
+Cave.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Cave"]
+end)
+
+Volcano.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Volcano"]
+end)
+
+Swamp.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Swamp"]
+end)
+
+PalmIsland.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Palm Island"]
+end)
+
+FancyFurnishings.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Fancy Furnishings"]
+end)
+
+BoxedCars.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Boxed Cars"]
+end)
+
+FineArtsShop.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Fine Arts Shop"]
+end)
+
+BobsShack.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Bob's Shack"]
+end)
+
+Dock.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Dock"]
+end)
+
+Bridge.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Bridge"]
+end)
+
+EndTimes.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["End Times"]
+end)
+
+ShrineOfSight.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Shrine Of Sight"]
+end)
+
+TheDen.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["The Den"]
+end)
+
+VolcanoWin.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Volcano Win"]
+end)
+
+SkiLodge.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Ski Lodge"]
+end)
+
+StrangeMan.MouseButton1Down:connect(function()
+	local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
+	uTorso.CFrame = WayPoints["Strange Man"]
+end)
+
